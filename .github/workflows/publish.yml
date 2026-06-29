@@ -13,6 +13,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      models: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -21,9 +24,9 @@ jobs:
       - run: npm install sharp
       - name: Generate articles
         env:
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_API_URL: ${{ secrets.LLM_API_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_URL: https://models.github.ai/inference/chat/completions
+          LLM_MODEL: openai/gpt-4o-mini
           DOMAIN: https://gadgetpulse.pages.dev
         run: node run.mjs --count=${{ github.event.inputs.count || '3' }}
       - name: Build with ads
