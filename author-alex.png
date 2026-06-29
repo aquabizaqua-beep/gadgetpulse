@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "iphone-18-pro-everything-we-know",
+    "cluster": "phones",
+    "author": "maya-chen",
+    "date": "2026-06-29",
+    "title": "iPhone 18 Pro: everything we know so far",
+    "dek": "A 2nm A20 Pro chip, a variable-aperture camera and a fall 2026 launch — here is what the credible leaks actually point to.",
+    "image": "img/iphone-18-pro-everything-we-know.jpg",
+    "imageAlt": "A modern smartphone resting on a desk next to accessories",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": ["iPhone 18 Pro", "Apple", "smartphones"],
+    "body": [
+      {"type":"p","text":"Apple's fall lineup is shaping up to be its biggest shake-up in years. With WWDC 2026 behind us and dummy units already circulating, the outline of the iPhone 18 Pro is fairly clear — and for the first time Apple looks set to split its launch."},
+      {"type":"p","text":"Here is what has a real paper trail versus what is still wishful thinking, and what each change would mean in everyday use."},
+      {"type":"h2","text":"A 2nm A20 Pro chip"},
+      {"type":"p","text":"The 18 Pro is expected to move to a 2-nanometer A20 Pro, a genuine step down from the A19's 3nm process. The practical win is efficiency — more battery life at the same speed — paired with a vapor chamber carried over for sustained performance under load."},
+      {"type":"h2","text":"Cameras get the biggest upgrade"},
+      {"type":"ul","items":["Variable-aperture main camera for real depth-of-field control","A 200MP main sensor expected on the Pro Max","A sharper 24MP front camera across the line","Storage reportedly up to 2TB on the Pro Max"]},
+      {"type":"h2","text":"A split launch"},
+      {"type":"p","text":"Multiple reports say only the Pro models — alongside Apple's first foldable, the iPhone Ultra — will arrive in September 2026, while the standard iPhone 18 slips to spring 2027. Expect higher Pro pricing too."},
+      {"type":"h2","text":"Should you wait?"},
+      {"type":"p","text":"If you are on a 16 Pro or older, the camera and efficiency gains make waiting sensible. Coming from a 17 Pro, it is a smaller jump."}
+    ],
+    "faq": [
+      {"q":"When will the iPhone 18 Pro be released?","a":"Reports point to a September 2026 launch for the Pro models, with the standard iPhone 18 expected in spring 2027."},
+      {"q":"What chip will the iPhone 18 Pro use?","a":"A 2nm A20 Pro chip is widely expected, a step down from the A19's 3nm process."},
+      {"q":"What is the biggest iPhone 18 Pro upgrade?","a":"A variable-aperture main camera and, on the Pro Max, a 200MP sensor are the headline changes."}
+    ],
+    "sources": [
+      {"title":"MacRumors — iPhone 18 roundup","url":"https://www.macrumors.com/roundup/iphone-18/"},
+      {"title":"9to5Mac — iPhone 18 Pro vs Ultra","url":"https://9to5mac.com/2026/05/28/iphone-18-pro-vs-iphone-ultra-three-features-to-win-your-upgrade/"}
+    ]
+  },
+  {
+    "slug": "iphone-18-pro-vs-iphone-ultra",
+    "cluster": "phones",
+    "author": "maya-chen",
+    "date": "2026-06-28",
+    "title": "iPhone 18 Pro vs iPhone Ultra: which to wait for",
+    "dek": "Apple's first foldable, the iPhone Ultra, sits above the Pro for the first time — same chip, very different bodies. Here is how they compare.",
+    "image": "img/iphone-18-pro-vs-iphone-ultra.jpg",
+    "imageAlt": "Two premium smartphones side by side on a table",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": ["iPhone Ultra", "iPhone 18 Pro", "foldable"],
+    "body": [
+      {"type":"p","text":"For the first time, Apple is placing a new Ultra tier above the Pro Max — and it is a foldable. Both phones share the A20 Pro, but materials and design pull them in different directions."},
+      {"type":"h2","text":"Performance: same chip, different thermals"},
+      {"type":"p","text":"Both are expected to run the A20 Pro. But the 18 Pro keeps an aluminum unibody with a vapor chamber, while the Ultra uses a thinner titanium build without one — so the Ultra may throttle sooner under heavy load or in direct sun."},
+      {"type":"h2","text":"Design and price"},
+      {"type":"ul","items":["iPhone Ultra: foldable, titanium, around 11mm thick closed, rumored up to $2,500, possibly without MagSafe","iPhone 18 Pro: familiar slab design, vapor-chamber cooling, a lower price"]},
+      {"type":"h2","text":"Launch timing"},
+      {"type":"p","text":"The 18 Pro is expected in September. The Ultra's foldable display is reportedly harder to produce, so it may ship slightly later in the cycle."},
+      {"type":"h2","text":"Which should you wait for?"},
+      {"type":"p","text":"Want the best sustained performance and value, go for the 18 Pro. Want the novelty of Apple's first fold and can stomach the premium, the Ultra is the halo device."}
+    ],
+    "faq": [
+      {"q":"How much will the iPhone Ultra cost?","a":"Reports suggest up to around $2,500, which would make it Apple's most expensive iPhone."},
+      {"q":"Is the iPhone Ultra a foldable?","a":"Yes — it is expected to be Apple's first foldable iPhone, positioned above the Pro Max."},
+      {"q":"Do the iPhone 18 Pro and Ultra use the same chip?","a":"Both are expected to use the A20 Pro, though their thermal designs differ."}
+    ],
+    "sources": [
+      {"title":"9to5Mac — iPhone 18 Pro vs Ultra","url":"https://9to5mac.com/2026/05/28/iphone-18-pro-vs-iphone-ultra-three-features-to-win-your-upgrade/"},
+      {"title":"Macworld — separate launches confirmed","url":"https://www.macworld.com/article/3177251/iphone-18-and-ultra-to-have-separate-launches-sources-confirm.html"}
+    ]
+  },
+  {
+    "slug": "best-laptops-2026-so-far",
+    "cluster": "laptops",
+    "author": "alex-rivera",
+    "date": "2026-06-28",
+    "title": "The best laptops in 2026 so far",
+    "dek": "New Intel Panther Lake chips, Apple's M5 MacBook Air and strong Lenovo ultrabooks lead the field — but a RAM shortage is nudging prices up.",
+    "image": "img/best-laptops-2026-so-far.jpg",
+    "imageAlt": "An open laptop on a desk with a bright display",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": ["laptops", "buying guide", "2026"],
+    "body": [
+      {"type":"p","text":"Half of 2026 is gone and the laptop field has reshuffled. Apple's M5 MacBook Air remains the value pick, Intel's Panther Lake (Core Ultra Series 3) chips are rolling out, and Lenovo's Yoga line keeps winning on battery life."},
+      {"type":"h2","text":"What is new this year"},
+      {"type":"ul","items":["Apple M5 MacBook Air — faster chip, bigger base storage, still the value ultraportable","Intel Panther Lake (Core Ultra Series 3) — big CPU and integrated-GPU gains","Lenovo Yoga Slim 7i — featherweight OLED with impressive battery","Acer Swift 16 AI — a strong all-round pick"]},
+      {"type":"h2","text":"The catch: RAM prices"},
+      {"type":"p","text":"A memory shortage has pushed RAM prices up, so well-specced configurations cost more than last year. If your current laptop is actively frustrating you, buying now often beats waiting another cycle."},
+      {"type":"h2","text":"How to choose"},
+      {"type":"p","text":"Prioritize battery life, a comfortable keyboard and a bright screen over a slightly faster chip. 16GB of RAM is the comfortable baseline; pay for more only if you edit video or run virtual machines."}
+    ],
+    "faq": [
+      {"q":"What is the best value laptop in 2026?","a":"Apple's M5 MacBook Air is widely cited as the best value ultraportable this year."},
+      {"q":"Why are laptop prices higher in 2026?","a":"A RAM shortage has pushed memory prices up, raising the cost of higher-spec configurations."}
+    ],
+    "sources": [
+      {"title":"Tom's Hardware — best laptops 2026","url":"https://www.tomshardware.com/laptops/best-laptops"},
+      {"title":"PCMag — best laptops (June 2026)","url":"https://www.pcmag.com/picks/the-best-laptops"},
+      {"title":"WIRED — best laptops 2026","url":"https://www.wired.com/story/best-laptops/"}
+    ]
+  },
+  {
+    "slug": "best-wireless-earbuds-2026",
+    "cluster": "audio",
+    "author": "alex-rivera",
+    "date": "2026-06-27",
+    "title": "The best wireless earbuds in 2026",
+    "dek": "Sony's WF-1000XM6 set the high bar for noise cancelling, while the Soundcore Liberty 4 NC stays the budget champion under $100.",
+    "image": "img/best-wireless-earbuds-2026.jpg",
+    "imageAlt": "A pair of wireless earbuds in an open charging case",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": ["earbuds", "audio", "Sony"],
+    "body": [
+      {"type":"p","text":"Earbuds split cleanly in 2026 between flagship noise-cancellers and genuinely good budget pairs. At the top, Sony's WF-1000XM6 leads the pack; under $100, Soundcore's Liberty 4 NC is hard to beat."},
+      {"type":"h2","text":"The flagship pick"},
+      {"type":"p","text":"The Sony WF-1000XM6 (released February 2026, around $330) offers class-leading active noise cancelling, comfort and multipoint pairing — at a price bump over its predecessor."},
+      {"type":"h2","text":"The budget champion"},
+      {"type":"ul","items":["Soundcore Liberty 4 NC (around $80-100) — adaptive ANC, multipoint, long battery; the safest all-rounder","Clip-on options like the Baseus Bowie MC2 for open-ear comfort during workouts"]},
+      {"type":"h2","text":"What to look for"},
+      {"type":"p","text":"Prioritize ANC that actually works on commutes, multipoint to pair a phone and laptop at once, a secure fit, and at least an IPX4 rating if you train with them."}
+    ],
+    "faq": [
+      {"q":"What are the best wireless earbuds in 2026?","a":"The Sony WF-1000XM6 are widely rated best overall, with the Soundcore Liberty 4 NC the top budget pick under $100."},
+      {"q":"Do budget earbuds have good noise cancelling in 2026?","a":"Yes — models like the Soundcore Liberty 4 NC offer effective adaptive ANC for around $80-100."}
+    ],
+    "sources": [
+      {"title":"RTINGS — best wireless earbuds","url":"https://www.rtings.com/headphones/reviews/best/wireless-earbuds"},
+      {"title":"Mashable — best gadgets 2026 so far","url":"https://mashable.com/tech/best-new-gadgets-2026-so-far"}
+    ]
+  },
+  {
+    "slug": "smart-home-go-local-matter-2026",
+    "cluster": "smart-home",
+    "author": "maya-chen",
+    "date": "2026-06-27",
+    "title": "Build a smart home in 2026: go local with Matter",
+    "dek": "The single best upgrade this year is not a gadget — it is moving your automations local. Here is a no-lock-in starter plan.",
+    "image": "img/smart-home-go-local-matter-2026.jpg",
+    "imageAlt": "A smart speaker and smart bulb in a living room",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": ["smart home", "Matter", "IoT"],
+    "body": [
+      {"type":"p","text":"The smart home matured in 2026, and the biggest improvement you can make costs nothing: run things locally. Matter keeps smoothing cross-brand compatibility, and platforms from Home Assistant to Apple Home are leaning into local execution."},
+      {"type":"h2","text":"Why local wins"},
+      {"type":"p","text":"Local automations fire instantly, keep working during internet outages, and leak less data than cloud-dependent setups. When buying anything new, look for the Matter logo and confirm the device can run locally."},
+      {"type":"h2","text":"The three essentials"},
+      {"type":"ul","items":["A hub or smart speaker to act as the controller","A couple of Matter-certified smart bulbs for the rooms you use most","One smart plug to automate a lamp or coffee maker"]},
+      {"type":"h2","text":"A note of caution"},
+      {"type":"p","text":"Matter still is not perfect — setup quirks and uneven device support remain. Buy from established brands and check local support before committing to a whole system."}
+    ],
+    "faq": [
+      {"q":"What is the best smart home upgrade in 2026?","a":"Moving automations to local execution using Matter devices that do not depend on the cloud is the most-cited upgrade."},
+      {"q":"Is Matter reliable in 2026?","a":"It has improved a lot but still has rough edges; buying established Matter-certified devices reduces headaches."}
+    ],
+    "sources": [
+      {"title":"Forbes — supercharge your smart home in 2026","url":"https://www.forbes.com/sites/paullamkin/2026/01/01/how-to-supercharge-your-smart-home-in-2026/"},
+      {"title":"matter-smarthome — Matter status in 2026","url":"https://matter-smarthome.de/en/development/the-matter-standard-in-2026-a-status-review/"}
+    ]
+  },
+  {
+    "slug": "nintendo-switch-2-one-year-later",
+    "cluster": "gaming",
+    "author": "alex-rivera",
+    "date": "2026-06-26",
+    "title": "Nintendo Switch 2, one year later: still worth it?",
+    "dek": "A year after launch and on firmware 22.5, the Switch 2 looks like a stronger buy than it did in 2025 — even as rivals raise prices.",
+    "image": "img/nintendo-switch-2-one-year-later.jpg",
+    "imageAlt": "A handheld gaming console held in two hands",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": ["Nintendo Switch 2", "handheld", "gaming"],
+    "body": [
+      {"type":"p","text":"A year on, the Switch 2 has settled into its stride. With a healthy exclusive lineup — Mario Kart World alone passed 14.7 million copies — and steady firmware updates, it is a more convincing buy than it was at launch."},
+      {"type":"h2","text":"Why it looks better now"},
+      {"type":"p","text":"The library has filled out, performance is stable, and price increases elsewhere — Valve recently raised Steam Deck prices — make the Switch 2 look reasonable for a mid-range handheld."},
+      {"type":"h2","text":"Switch 2 vs Switch OLED"},
+      {"type":"ul","items":["Switch 2: far more power, backward compatible, bigger screen","Switch OLED: cheaper, gorgeous screen, great battery for lighter games"]},
+      {"type":"h2","text":"Who should buy"},
+      {"type":"p","text":"If you want Nintendo exclusives and modern performance, the Switch 2 is the pick. If you only play lighter titles and want the best screen-per-dollar, the OLED still holds up."}
+    ],
+    "faq": [
+      {"q":"Is the Nintendo Switch 2 worth it in 2026?","a":"A year after launch, with a stronger library and stable performance, most buyers find it worth it — especially for Nintendo exclusives."},
+      {"q":"Switch 2 or Switch OLED for handheld?","a":"The Switch 2 is far more powerful; the OLED is cheaper with a great screen and battery for lighter games."}
+    ],
+    "sources": [
+      {"title":"CNET — Switch 2 one year on","url":"https://www.cnet.com/tech/gaming/one-year-on-nintendos-switch-2-impresses-me-more-than-ever/"},
+      {"title":"Tom's Guide — best handheld consoles 2026","url":"https://www.tomsguide.com/round-up/best-handheld-gaming-consoles"}
+    ]
+  }
+]
