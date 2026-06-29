@@ -1,24 +1,31 @@
-// sources.mjs — trend discovery. Runs on YOUR machine / GitHub Actions (needs internet).
-// Pulls candidate topics from Google Trends RSS + Reddit hot, filtered to our clusters.
-// No API keys required for these sources.
+// sources.mjs — trend discovery that works from datacenter IPs (GitHub Actions).
+// Priority order:
+//   1) Hacker News (Algolia API) — no key, reliable from CI/datacenter IPs.
+//   2) Reddit hot — best effort (works locally, usually BLOCKED on CI IPs).
+//   3) Curated editorial fallback — guarantees the pipeline always has topics,
+//      so the auto-publisher never silently produces nothing.
 import { CLUSTERS } from './config.mjs'
-
-const SUBREDDITS = {
-  phones: ['gadgets', 'Android', 'apple', 'smartphones'],
-  laptops: ['laptops', 'pcmasterrace', 'buildapc'],
-  audio: ['headphones', 'audiophile', 'earbuds'],
-  'smart-home': ['smarthome', 'homeautomation'],
-  gaming: ['pcgaming', 'GamingLaptops', 'SteamDeck'],
-}
 
 const UA = { 'user-agent': 'GadgetPulseBot/1.0 (+https://gadgetpulse.pages.dev)' }
 
-// Google Trends daily RSS. geo can be US/GB/CA/AU.
-function trendsRssUrl(geo) {
-  return 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=' + geo
+const slugify = (s) =>
+  String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70)
+
+// keyword -> cluster classification (used to map live headlines into our sections)
+const CLUSTER_KEYWORDS = {
+  phones: ['iphone', 'android', 'smartphone', 'pixel', 'galaxy', 'foldable', 'oneplus', 'smartwatch', 'wearable'],
+  laptops: ['laptop', 'macbook', 'thinkpad', 'ultrabook', 'ryzen', 'intel core', 'snapdragon x', 'chromebook'],
+  audio: ['headphone', 'earbud', 'airpods', 'soundbar', 'bluetooth speaker', 'noise cancel', 'noise-cancel'],
+  'smart-home': ['smart home', 'matter', 'home assistant', 'thread protocol', 'smart bulb', 'smart plug', 'home automation'],
+  gaming: ['steam deck', 'nintendo switch', 'handheld', 'gaming laptop', 'graphics card', 'gpu', 'rog ally'],
 }
-function redditHotUrl(sub, limit) {
-  return 'https://www.reddit.com/r/' + sub + '/hot.json?limit=' + limit
+
+function classify(title) {
+  const t = String(title).toLowerCase()
+  for (const [cluster, kws] of Object.entries(CLUSTER_KEYWORDS)) {
+    if (kws.some((k) => t.includes(k))) return cluster
+  }
+  return null
 }
 
 async function getJson(url) {
@@ -32,12 +39,53 @@ async function getText(url) {
   return r.text()
 }
 
+// ---- 1) Hacker News (Algolia) — reliable from datacenter IPs --------------
+export async function hnTopics({ minPoints = 20 } = {}) {
+  const base =
+    'http://hn.algolia.com/api/v1/search?tags=story&hitsPerPage=20&numericFilters=points%3E' +
+    minPoints + '&query='
+  const queries = [
+    'iphone', 'android phone', 'foldable phone',
+    'laptop', 'macbook', 'gaming laptop',
+    'headphones', 'wireless earbuds',
+    'smart home', 'matter standard', 'home assistant',
+    'steam deck', 'nintendo switch', 'graphics card',
+  ]
+  const out = []
+  const seen = new Set()
+  for (const q of queries) {
+    try {
+      const data = await getJson(base + encodeURIComponent(q))
+      for (const h of data?.hits || []) {
+        const title = h.title
+        if (!title || seen.has(title)) continue
+        const cluster = classify(title)
+        if (!cluster) continue
+        seen.add(title)
+        out.push({
+          cluster, title, score: h.points || 0,
+          url: 'https://news.ycombinator.com/item?id=' + h.objectID, source: 'hn',
+        })
+      }
+    } catch (e) { console.warn('hn', q, e.message) }
+  }
+  return out.sort((a, b) => b.score - a.score)
+}
+
+// ---- 2) Reddit hot — best effort (usually blocked on CI) ------------------
+const SUBREDDITS = {
+  phones: ['gadgets', 'Android', 'apple', 'smartphones'],
+  laptops: ['laptops', 'pcmasterrace', 'buildapc'],
+  audio: ['headphones', 'audiophile', 'earbuds'],
+  'smart-home': ['smarthome', 'homeautomation'],
+  gaming: ['pcgaming', 'GamingLaptops', 'SteamDeck'],
+}
 export async function redditTopics(cluster, limit = 8) {
   const subs = SUBREDDITS[cluster] || []
   const out = []
   for (const s of subs) {
     try {
-      const data = await getJson(redditHotUrl(s, limit))
+      const data = await getJson('https://www.reddit.com/r/' + s + '/hot.json?limit=' + limit)
       for (const c of data?.data?.children || []) {
         const p = c.data
         if (p.stickied || p.over_18) continue
@@ -48,25 +96,83 @@ export async function redditTopics(cluster, limit = 8) {
   return out.sort((a, b) => b.score - a.score)
 }
 
-export async function trendsTopics(geo = 'US') {
-  try {
-    const xml = await getText(trendsRssUrl(geo))
-    const titles = [...xml.matchAll(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/g)].map((m) => m[1]).slice(1)
-    return titles.map((t) => ({ title: t, source: 'trends:' + geo }))
-  } catch (e) { console.warn('trends', e.message); return [] }
+// ---- 3) Curated editorial fallback — always available ---------------------
+// Evergreen-but-useful angles. Slug-dedup means each is used once, then the
+// pool rotates as items get consumed across days. Refresh this list anytime.
+function fallbackTopics() {
+  const y = new Date().getFullYear()
+  const pool = {
+    phones: [
+      `Best phones to buy in ${y}: our current picks`,
+      `iPhone vs Android in ${y}: which should you choose`,
+      `Are foldable phones worth it in ${y}?`,
+      `How to make your phone battery last longer`,
+      `Best budget smartphones under $400 in ${y}`,
+      `Smartwatches worth buying in ${y}`,
+    ],
+    laptops: [
+      `Best laptops to buy in ${y}: our current picks`,
+      `MacBook vs Windows laptop in ${y}: how to decide`,
+      `How much RAM and storage do you really need in ${y}?`,
+      `Best laptops for students in ${y}`,
+      `ARM vs x86 laptops: what the chip choice means for you`,
+      `Best budget laptops under $700 in ${y}`,
+    ],
+    audio: [
+      `Best wireless earbuds in ${y}: our current picks`,
+      `Noise-cancelling headphones worth buying in ${y}`,
+      `Wireless earbuds vs over-ear headphones: which to pick`,
+      `How to choose the right earbuds for the gym`,
+      `Bluetooth codecs explained: do they actually matter?`,
+      `Best budget earbuds under $100 in ${y}`,
+    ],
+    'smart-home': [
+      `How to start a smart home in ${y} without lock-in`,
+      `What is Matter, and why it matters for your smart home`,
+      `Best smart home devices to buy first in ${y}`,
+      `Local vs cloud smart homes: which is better for you`,
+      `How to make your smart home faster and more private`,
+      `Smart plugs and bulbs: the cheapest way to start`,
+    ],
+    gaming: [
+      `Best handheld gaming PCs in ${y}: our current picks`,
+      `Steam Deck vs the competition in ${y}`,
+      `Nintendo Switch 2: is it worth buying in ${y}?`,
+      `Best gaming laptops in ${y} for every budget`,
+      `What graphics card should you buy in ${y}?`,
+      `How to pick a handheld console that fits you`,
+    ],
+  }
+  const out = []
+  for (const [cluster, titles] of Object.entries(pool)) {
+    for (const title of titles) out.push({ cluster, title, score: 0, url: '', source: 'editorial' })
+  }
+  return out
 }
 
-// Returns ranked candidate topics across all clusters, skipping anything we already covered.
+// ---- Aggregator -----------------------------------------------------------
+// Returns ranked candidate topics across all clusters, skipping anything we
+// already covered. Live sources first (timely), editorial fallback last.
 export async function gatherTopics({ existingSlugs = new Set(), perCluster = 6 } = {}) {
-  const slugify = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
   const all = []
-  for (const cluster of Object.keys(CLUSTERS)) {
-    const topics = await redditTopics(cluster, perCluster)
-    for (const t of topics) {
-      const slug = slugify(t.title).slice(0, 70)
-      if (!slug || existingSlugs.has(slug)) continue
-      all.push({ ...t, slug })
-    }
+  const have = new Set()
+  const pushUnique = (t) => {
+    const slug = slugify(t.title)
+    if (!slug || existingSlugs.has(slug) || have.has(slug)) return
+    have.add(slug)
+    all.push({ ...t, slug })
   }
+
+  // 1) Hacker News (reliable on CI)
+  try { for (const t of await hnTopics()) pushUnique(t) } catch (e) { console.warn('hn gather', e.message) }
+
+  // 2) Reddit (best effort; silently empty on CI)
+  for (const cluster of Object.keys(CLUSTERS)) {
+    try { for (const t of await redditTopics(cluster, perCluster)) pushUnique(t) } catch {}
+  }
+
+  // 3) Editorial fallback — guarantees non-empty output
+  for (const t of fallbackTopics()) pushUnique(t)
+
   return all
 }
