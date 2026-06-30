@@ -33,19 +33,15 @@ async function getJson(url) {
   if (!r.ok) throw new Error(r.status + ' ' + url)
   return r.json()
 }
-async function getText(url) {
-  const r = await fetch(url, { headers: UA })
-  if (!r.ok) throw new Error(r.status + ' ' + url)
-  return r.text()
-}
 
 // ---- 1) Hacker News (Algolia) — reliable from datacenter IPs --------------
 export async function hnTopics({ minPoints = 20 } = {}) {
-  const base =
-    'http://hn.algolia.com/api/v1/search?tags=story&hitsPerPage=20&numericFilters=points%3E' +
-    minPoints + '&query='
+  // Use HTTPS and skip the server-side numericFilters param: the URL-encoded
+  // ">" points filter was returning HTTP 400 from datacenter IPs. We fetch and
+  // filter by points client-side instead, which is robust.
+  const base = 'https://hn.algolia.com/api/v1/search?tags=story&hitsPerPage=30&query='
   const queries = [
-    'iphone', 'android phone', 'foldable phone',
+    'iphone', 'android phone', 'foldable phone', 'smartwatch',
     'laptop', 'macbook', 'gaming laptop',
     'headphones', 'wireless earbuds',
     'smart home', 'matter standard', 'home assistant',
@@ -59,6 +55,7 @@ export async function hnTopics({ minPoints = 20 } = {}) {
       for (const h of data?.hits || []) {
         const title = h.title
         if (!title || seen.has(title)) continue
+        if ((h.points || 0) < minPoints) continue
         const cluster = classify(title)
         if (!cluster) continue
         seen.add(title)
@@ -97,62 +94,96 @@ export async function redditTopics(cluster, limit = 8) {
 }
 
 // ---- 3) Curated editorial fallback — always available ---------------------
-// Evergreen-but-useful angles. Slug-dedup means each is used once, then the
-// pool rotates as items get consumed across days. Refresh this list anytime.
+// Varied angles (how-to, explainer, comparison) across ALL clusters — not a
+// pile of near-identical "best X to buy" posts. Each cluster's list is rotated
+// by day-of-year so the first-picked angle changes daily, and the aggregator
+// interleaves clusters so the daily output stays topically balanced.
 function fallbackTopics() {
-  const y = new Date().getFullYear()
+  const now = new Date()
+  const y = now.getFullYear()
+  const doy = Math.floor((now - new Date(y, 0, 0)) / 864e5)
   const pool = {
     phones: [
-      `Best phones to buy in ${y}: our current picks`,
       `iPhone vs Android in ${y}: which should you choose`,
       `Are foldable phones worth it in ${y}?`,
       `How to make your phone battery last longer`,
-      `Best budget smartphones under $400 in ${y}`,
-      `Smartwatches worth buying in ${y}`,
+      `Phone storage: how much do you actually need in ${y}?`,
+      `eSIM explained: switching carriers without a physical SIM`,
+      `How to speed up an aging Android phone`,
+      `Smartwatch buying guide for ${y}: what actually matters`,
     ],
     laptops: [
-      `Best laptops to buy in ${y}: our current picks`,
       `MacBook vs Windows laptop in ${y}: how to decide`,
       `How much RAM and storage do you really need in ${y}?`,
-      `Best laptops for students in ${y}`,
       `ARM vs x86 laptops: what the chip choice means for you`,
-      `Best budget laptops under $700 in ${y}`,
+      `How to make your laptop battery last all day`,
+      `OLED vs LCD laptop screens: which is worth it`,
+      `A practical laptop buying guide for students in ${y}`,
+      `Why laptops slow down over time — and how to fix it`,
     ],
     audio: [
-      `Best wireless earbuds in ${y}: our current picks`,
-      `Noise-cancelling headphones worth buying in ${y}`,
+      `How noise-cancelling headphones work and who needs them`,
       `Wireless earbuds vs over-ear headphones: which to pick`,
-      `How to choose the right earbuds for the gym`,
       `Bluetooth codecs explained: do they actually matter?`,
-      `Best budget earbuds under $100 in ${y}`,
+      `How to choose earbuds for the gym`,
+      `Why your earbuds sound bad — and how to fix it`,
+      `Wired vs wireless audio in ${y}: is the cable dead?`,
+      `What to look for in earbuds in ${y}`,
     ],
     'smart-home': [
       `How to start a smart home in ${y} without lock-in`,
       `What is Matter, and why it matters for your smart home`,
-      `Best smart home devices to buy first in ${y}`,
       `Local vs cloud smart homes: which is better for you`,
       `How to make your smart home faster and more private`,
       `Smart plugs and bulbs: the cheapest way to start`,
+      `Keeping smart home cameras private and secure`,
+      `Thread vs Wi-Fi vs Zigbee: smart home networks explained`,
     ],
     gaming: [
-      `Best handheld gaming PCs in ${y}: our current picks`,
       `Steam Deck vs the competition in ${y}`,
-      `Nintendo Switch 2: is it worth buying in ${y}?`,
-      `Best gaming laptops in ${y} for every budget`,
+      `Is the Nintendo Switch 2 worth buying in ${y}?`,
       `What graphics card should you buy in ${y}?`,
-      `How to pick a handheld console that fits you`,
+      `How to pick a handheld gaming PC that fits you`,
+      `PC vs console gaming in ${y}: which makes sense`,
+      `How to make games run smoother on a budget PC`,
+      `Gaming laptop vs handheld: which portable should you pick`,
     ],
   }
   const out = []
   for (const [cluster, titles] of Object.entries(pool)) {
-    for (const title of titles) out.push({ cluster, title, score: 0, url: '', source: 'editorial' })
+    const rot = titles.length ? (doy % titles.length) : 0
+    const rotated = titles.slice(rot).concat(titles.slice(0, rot))
+    for (const title of rotated) out.push({ cluster, title, score: 0, url: '', source: 'editorial' })
+  }
+  return out
+}
+
+// Round-robin across clusters so consecutive candidates span different sections
+// (prevents a phones-heavy fallback from dominating the daily output), while
+// preserving each cluster's internal order (timely live topics stay first).
+function interleaveByCluster(list) {
+  const groups = new Map()
+  for (const t of list) {
+    const k = t.cluster || 'misc'
+    if (!groups.has(k)) groups.set(k, [])
+    groups.get(k).push(t)
+  }
+  const arrs = [...groups.values()]
+  const out = []
+  for (let i = 0; out.length < list.length; i++) {
+    let progressed = false
+    for (const g of arrs) {
+      if (i < g.length) { out.push(g[i]); progressed = true }
+    }
+    if (!progressed) break
   }
   return out
 }
 
 // ---- Aggregator -----------------------------------------------------------
-// Returns ranked candidate topics across all clusters, skipping anything we
-// already covered. Live sources first (timely), editorial fallback last.
+// Returns candidate topics across all clusters, skipping anything we already
+// covered. Live sources first (timely), editorial fallback last, then the whole
+// set is interleaved by cluster for topical balance.
 export async function gatherTopics({ existingSlugs = new Set(), perCluster = 6 } = {}) {
   const all = []
   const have = new Set()
@@ -174,5 +205,5 @@ export async function gatherTopics({ existingSlugs = new Set(), perCluster = 6 }
   // 3) Editorial fallback — guarantees non-empty output
   for (const t of fallbackTopics()) pushUnique(t)
 
-  return all
+  return interleaveByCluster(all)
 }
