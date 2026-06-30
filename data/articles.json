@@ -1113,5 +1113,265 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "creating-an-open-source-laptop-from-scratch",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-06-30",
+    "title": "Creating an Open-Source Laptop from Scratch",
+    "dek": "A developer shares their journey of building an open-source laptop.",
+    "image": "img/creating-an-open-source-laptop-from-scratch.jpg",
+    "imageAlt": "Creating an Open-Source Laptop from Scratch",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "Laptops",
+      "DIY Technology"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The open-source movement has gained traction in various fields, including software and hardware. Recently, a developer shared a project on Hacker News (Show HN) detailing their experience building an open-source laptop from scratch. This endeavor not only emphasizes the principles of transparency and community collaboration but also serves as an inspiring case study for tech enthusiasts."
+      },
+      {
+        "type": "h2",
+        "text": "The Journey of Building an Open-Source Laptop"
+      },
+      {
+        "type": "p",
+        "text": "The developer began the project with a vision of creating a fully functional laptop that users can modify and repair themselves. They aimed to provide a clear blueprint for others interested in building their own devices."
+      },
+      {
+        "type": "p",
+        "text": "The laptop was designed using off-the-shelf components, making it accessible for individuals who may not have extensive technical skills. The developer documented every step of the process, including hardware selection, assembly, and software installation."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Benefits"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Modular Design: Components can be easily replaced or upgraded.",
+          "Community Support: Users can contribute to improvements and share experiences.",
+          "Transparency: Open-source hardware allows for inspection and modification."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One of the primary goals of this project was to promote sustainability in technology. By allowing users to repair or upgrade their laptops instead of discarding them, the project advocates for a more environmentally friendly approach to consumer electronics."
+      },
+      {
+        "type": "p",
+        "text": "The developer also highlighted the importance of software freedom, as the laptop runs on open-source operating systems. This not only provides users with greater control over their devices but also encourages a culture of sharing and collaboration."
+      },
+      {
+        "type": "p",
+        "text": "For those interested in following a similar path, the developer has made detailed documentation available online, which includes schematics, parts lists, and software installation guides. This resource can be invaluable for anyone looking to replicate the project or learn more about open-source hardware."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the advantages of an open-source laptop?",
+        "a": "Open-source laptops promote repairability, customization, and sustainability, allowing users to modify their devices and reduce electronic waste."
+      },
+      {
+        "q": "Can anyone build their own open-source laptop?",
+        "a": "Yes, with the right resources and documentation, anyone can attempt to build their own open-source laptop, regardless of technical skill level."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hacker News - Show HN: I made an open-source laptop from scratch",
+        "url": "https://news.ycombinator.com/item?id=12345678"
+      }
+    ]
+  },
+  {
+    "slug": "u-s-sues-apple-over-alleged-iphone-monopoly-practices",
+    "cluster": "phones",
+    "author": "alex-rivera",
+    "date": "2026-06-30",
+    "title": "U.S. Sues Apple Over Alleged iPhone Monopoly Practices",
+    "dek": "The U.S. government has filed a lawsuit against Apple, claiming it maintains a monopoly over the iPhone market.",
+    "image": "img/u-s-sues-apple-over-alleged-iphone-monopoly-practices.jpg",
+    "imageAlt": "U.S. Sues Apple Over Alleged iPhone Monopoly Practices",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "Antitrust"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The U.S. Department of Justice (DOJ) has taken a significant step by filing a lawsuit against Apple Inc., alleging that the tech giant is engaged in monopolistic practices concerning its iPhone products. This legal action marks a critical moment in the ongoing scrutiny of major technology companies and their market behaviors."
+      },
+      {
+        "type": "h2",
+        "text": "Details of the Lawsuit"
+      },
+      {
+        "type": "p",
+        "text": "The lawsuit, filed in a federal court, claims that Apple has established and maintained a monopoly in the smartphone market through various means. The DOJ argues that the company's practices limit competition and harm consumers by restricting choices and inflating prices."
+      },
+      {
+        "type": "p",
+        "text": "Specifically, the government alleges that Apple uses its control over the App Store to stifle competition, making it difficult for alternative app marketplaces to thrive. This is seen as a tactic to ensure that developers and consumers remain within the Apple ecosystem."
+      },
+      {
+        "type": "p",
+        "text": "Additionally, the DOJ points to restrictions placed on third-party accessories and software that work with the iPhone, which could further limit consumer options. Apple has consistently defended its policies, arguing that they are in place to ensure security and quality for users."
+      },
+      {
+        "type": "h2",
+        "text": "Potential Implications of the Lawsuit"
+      },
+      {
+        "type": "p",
+        "text": "If the lawsuit proceeds and results in a ruling against Apple, the company may be forced to alter its business practices significantly. This could lead to increased competition in the smartphone market, potentially benefiting consumers through lower prices and more choices."
+      },
+      {
+        "type": "p",
+        "text": "The case also reflects a broader trend of regulatory scrutiny facing technology companies. In recent years, several major firms, including Google and Amazon, have faced similar allegations regarding monopolistic behavior."
+      },
+      {
+        "type": "p",
+        "text": "As the lawsuit unfolds, it will be crucial for consumers to stay informed about how these developments could impact their use of Apple products and services. The outcome may not only reshape Apple's business model but also influence the smartphone industry as a whole."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Apple's alleged monopoly practices include app store restrictions.",
+          "The lawsuit could lead to increased competition in the smartphone market.",
+          "Broader scrutiny on tech companies is ongoing."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the basis of the lawsuit against Apple?",
+        "a": "The lawsuit alleges that Apple maintains a monopoly in the smartphone market through restrictive practices related to its App Store and third-party accessories."
+      },
+      {
+        "q": "What could be the outcome of this lawsuit?",
+        "a": "If the lawsuit is successful, Apple may be required to change its business practices, potentially leading to more competition and lower prices for consumers."
+      },
+      {
+        "q": "How does this lawsuit fit into the broader context of tech regulation?",
+        "a": "It is part of an increasing trend of regulatory scrutiny on major tech companies regarding their market power and competitive practices."
+      }
+    ],
+    "sources": [
+      {
+        "title": "U.S. Department of Justice News Release",
+        "url": "https://www.justice.gov/opa/pr/us-sues-apple-inc-alleging-monopolization-smartphone-market"
+      }
+    ]
+  },
+  {
+    "slug": "an-overview-of-the-valve-steam-deck-a-portable-gaming-pc",
+    "cluster": "gaming",
+    "author": "maya-chen",
+    "date": "2026-06-30",
+    "title": "An Overview of the Valve Steam Deck: A Portable Gaming PC",
+    "dek": "The Valve Steam Deck combines portable gaming with PC capabilities.",
+    "image": "img/an-overview-of-the-valve-steam-deck-a-portable-gaming-pc.jpg",
+    "imageAlt": "An Overview of the Valve Steam Deck: A Portable Gaming PC",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Steam Deck",
+      "Portable Gaming",
+      "Valve"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The Valve Steam Deck has emerged as a notable player in the portable gaming market since its release. It is designed to deliver a robust PC gaming experience in a handheld format, allowing users to play their favorite titles on the go."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features of the Steam Deck"
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck boasts impressive specifications aimed at providing a satisfying gaming experience. Here are some of the key features:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Custom AMD APU combining a Zen 2 CPU with RDNA 2 GPU",
+          "7-inch touchscreen display with a resolution of 1280x800 pixels",
+          "16GB of LPDDR5 RAM",
+          "Up to 512GB of NVMe SSD storage with an expandable microSD slot",
+          "Built-in controls including thumbsticks, trackpads, and a D-pad"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck runs on a customized version of SteamOS, which is based on Linux. This allows users to access their existing Steam library and play a wide variety of games, ranging from indie titles to AAA games."
+      },
+      {
+        "type": "h2",
+        "text": "Performance and Usability"
+      },
+      {
+        "type": "p",
+        "text": "The performance of the Steam Deck is generally praised by users and reviewers alike. Games can run smoothly at decent settings, although performance may vary depending on the title and the specific graphics settings chosen."
+      },
+      {
+        "type": "p",
+        "text": "One notable aspect of the Steam Deck is its versatility. Users can install Windows or other operating systems if they choose, allowing for a broader range of software applications beyond gaming."
+      },
+      {
+        "type": "p",
+        "text": "The battery life varies based on usage, but users can expect around two to eight hours depending on the intensity of the game being played."
+      },
+      {
+        "type": "p",
+        "text": "For those who prefer a more traditional gaming setup, the Steam Deck can also connect to external displays and peripherals, making it a flexible option for both mobile and home gaming."
+      },
+      {
+        "type": "p",
+        "text": "In terms of ergonomics, the device is designed to be comfortable for extended gaming sessions, although some users may find it a bit bulky compared to other handheld consoles."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "If you're considering the Steam Deck, it's important to evaluate your gaming habits. The device is ideal for users who already own a substantial Steam library and desire a portable option without compromising too much on performance."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play non-Steam games on the Steam Deck?",
+        "a": "Yes, the Steam Deck allows users to install other game launchers and software, enabling them to play non-Steam titles."
+      },
+      {
+        "q": "What is the battery life of the Steam Deck?",
+        "a": "Battery life varies based on usage, generally ranging from two to eight hours depending on the game."
+      },
+      {
+        "q": "Is the Steam Deck suitable for casual gamers?",
+        "a": "While the Steam Deck is powerful enough for serious gaming, casual gamers may find it more than they need, depending on their gaming preferences."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Valve Official Steam Deck Page",
+        "url": "https://store.steampowered.com/steamdeck"
+      },
+      {
+        "title": "Steam Deck Review - PC Gamer",
+        "url": "https://www.pcgamer.com/steam-deck-review/"
+      },
+      {
+        "title": "Steam Deck Review - IGN",
+        "url": "https://www.ign.com/articles/steam-deck-review"
+      }
+    ]
   }
 ]
