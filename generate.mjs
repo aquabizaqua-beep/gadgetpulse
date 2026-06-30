@@ -10,6 +10,21 @@ const D = CONFIG.DOMAIN
 const OUT = path.resolve(__dirname, CONFIG.OUT)
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'articles.json'), 'utf8'))
 
+// Backfill missing cover images so every article has a 1200x675 JPG. Self-heals
+// articles generated when the image step failed (e.g. ImageMagick missing).
+{
+  const { placeholder } = await import('./images.mjs')
+  for (const a of DATA) {
+    if (!a.image) a.image = 'img/' + a.slug + '.jpg'
+    const rel = String(a.image).replace(/^\//, '')
+    const fp = path.join(__dirname, rel)
+    if (!fs.existsSync(fp)) {
+      try { await placeholder(fp, a.imageAlt || a.title, CLUSTER_COLOR[a.cluster] || '#6d28d9'); console.log('backfilled cover:', a.slug) }
+      catch (e) { console.warn('backfill failed', a.slug, e.message) }
+    }
+  }
+}
+
 const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 const attr = esc
 const jsonld = (o) => JSON.stringify(o).replace(/</g, '\\u003c')
