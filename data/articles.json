@@ -1373,5 +1373,259 @@
         "url": "https://www.ign.com/articles/steam-deck-review"
       }
     ]
+  },
+  {
+    "slug": "building-an-open-source-laptop-from-scratch",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-06-30",
+    "title": "Building an Open-Source Laptop from Scratch",
+    "dek": "A developer shares their journey of creating an open-source laptop.",
+    "image": "img/building-an-open-source-laptop-from-scratch.jpg",
+    "imageAlt": "Building an Open-Source Laptop from Scratch",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "Laptops",
+      "DIY Technology"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In the world of technology, open-source projects have gained significant traction, particularly among enthusiasts and developers. One such project that has recently caught the attention of the tech community is an open-source laptop built entirely from scratch. This initiative not only showcases the capabilities of modern DIY technology but also addresses the growing demand for transparency and user control in hardware."
+      },
+      {
+        "type": "h2",
+        "text": "The Concept of an Open-Source Laptop"
+      },
+      {
+        "type": "p",
+        "text": "The concept behind an open-source laptop revolves around the idea of providing users with complete freedom over their hardware. Unlike traditional laptops, which often come with proprietary components and software, an open-source laptop utilizes publicly available designs and specifications. This allows users to modify and improve their devices according to their needs."
+      },
+      {
+        "type": "p",
+        "text": "The creator of this particular open-source laptop shared their project on the 'Show HN' platform, which is a community-driven space on Hacker News where developers showcase their projects. The announcement sparked interest and discussions within the community, highlighting the potential of open-source hardware."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Design"
+      },
+      {
+        "type": "p",
+        "text": "The open-source laptop features a modular design, allowing users to easily replace or upgrade individual components. This is a significant advantage over conventional laptops, where upgrading often requires specialized knowledge or tools. Some of the key features include:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Customizable hardware specifications based on user needs.",
+          "Open-source firmware that allows for greater control over system settings.",
+          "Community-driven support for troubleshooting and modifications.",
+          "Sustainable components that reduce electronic waste."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The project emphasizes collaboration and transparency, encouraging users to contribute to the design and development process. This approach not only fosters innovation but also builds a community of like-minded individuals passionate about technology."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those interested in exploring the world of open-source hardware, the creation of this laptop serves as an inspiring example. It highlights the feasibility of building a device tailored to personal needs while promoting sustainability and collaboration. Individuals who wish to engage with this project can explore the designs and documentation available online, potentially starting their own DIY laptop journey."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the benefits of an open-source laptop?",
+        "a": "Open-source laptops offer customization, transparency in components, and community support, allowing users to modify their hardware as needed."
+      },
+      {
+        "q": "How can I get involved with open-source hardware projects?",
+        "a": "You can start by exploring existing projects online, contributing to discussions, or even starting your own DIY project using available designs."
+      },
+      {
+        "q": "Is building an open-source laptop difficult?",
+        "a": "While it requires some technical knowledge, many resources and community support are available to help guide you through the process."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "u-s-government-sues-apple-over-alleged-iphone-monopoly",
+    "cluster": "phones",
+    "author": "alex-rivera",
+    "date": "2026-06-30",
+    "title": "U.S. Government Sues Apple Over Alleged iPhone Monopoly",
+    "dek": "The lawsuit claims Apple maintains a monopoly on iPhone sales.",
+    "image": "img/u-s-government-sues-apple-over-alleged-iphone-monopoly.jpg",
+    "imageAlt": "U.S. Government Sues Apple Over Alleged iPhone Monopoly",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Apple",
+      "Lawsuit",
+      "Monopoly"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The U.S. government has filed a lawsuit against Apple, accusing the tech giant of maintaining a monopoly over the iPhone market. This legal action raises significant questions about competition and consumer choice in the mobile phone industry."
+      },
+      {
+        "type": "h2",
+        "text": "Allegations of Monopoly Practices"
+      },
+      {
+        "type": "p",
+        "text": "The lawsuit claims that Apple has engaged in practices that restrict competition in the smartphone market, particularly regarding its App Store policies and iOS ecosystem. The government argues that these practices hinder other developers and manufacturers from competing fairly."
+      },
+      {
+        "type": "p",
+        "text": "A primary concern raised in the lawsuit is the control Apple exerts over app distribution through its App Store. Developers must comply with strict guidelines and pay a commission on sales, which critics argue stifles innovation and raises costs for consumers."
+      },
+      {
+        "type": "p",
+        "text": "In addition, the lawsuit highlights how Apple's closed ecosystem limits the ability of users to install apps from third-party sources, a practice known as sideloading. This restriction is seen as a way for Apple to maintain its dominance by making it difficult for alternative app stores to emerge."
+      },
+      {
+        "type": "h2",
+        "text": "Implications for Consumers and Developers"
+      },
+      {
+        "type": "p",
+        "text": "If the lawsuit succeeds, it could lead to significant changes in how Apple operates its App Store and interacts with developers. This could result in lower costs for consumers and more choices in the apps available for iPhones."
+      },
+      {
+        "type": "p",
+        "text": "For developers, a ruling against Apple may open up new opportunities to reach consumers without the constraints currently imposed by Apple's policies. This could foster a more competitive environment, encouraging innovation and potentially leading to better apps."
+      },
+      {
+        "type": "p",
+        "text": "However, the outcome of the lawsuit remains uncertain, and it may take years for the case to be resolved. During this time, Apple will likely continue to defend its practices, arguing that they ensure a secure and high-quality experience for users."
+      },
+      {
+        "type": "p",
+        "text": "For consumers, it's essential to stay informed about the developments in this lawsuit, as the implications could affect not only iPhone users but also the broader smartphone market."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "The lawsuit could change how apps are distributed on iPhones.",
+          "Consumers may see more app choices and lower prices.",
+          "Developers might gain more freedom to innovate without restrictions."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the basis of the lawsuit against Apple?",
+        "a": "The lawsuit alleges that Apple maintains a monopoly on iPhone sales and restricts competition through its App Store policies."
+      },
+      {
+        "q": "How could this lawsuit affect iPhone users?",
+        "a": "If successful, the lawsuit could lead to more app choices, potentially lower prices, and changes in how apps are distributed on iPhones."
+      },
+      {
+        "q": "What are the potential outcomes of the lawsuit?",
+        "a": "Outcomes could range from changes to Apple's App Store policies to significant penalties or requirements for Apple to alter its business practices."
+      }
+    ],
+    "sources": [
+      {
+        "title": "U.S. Department of Justice - Press Release",
+        "url": "https://www.justice.gov/opa/pr/us-files-antitrust-lawsuit-against-apple-inc"
+      }
+    ]
+  },
+  {
+    "slug": "an-in-depth-look-at-the-valve-steam-deck",
+    "cluster": "gaming",
+    "author": "maya-chen",
+    "date": "2026-06-30",
+    "title": "An In-Depth Look at the Valve Steam Deck",
+    "dek": "The Valve Steam Deck offers a portable gaming experience with powerful capabilities.",
+    "image": "img/an-in-depth-look-at-the-valve-steam-deck.jpg",
+    "imageAlt": "An In-Depth Look at the Valve Steam Deck",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Gaming",
+      "Portable Consoles",
+      "Tech"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The Valve Steam Deck is a handheld gaming device that aims to bring the extensive library of PC gaming to a portable format. Released in February 2022, this device has garnered attention for its ability to run a wide range of games from the Steam platform."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features of the Steam Deck"
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck is equipped with a custom AMD APU, which combines a powerful quad-core Zen 2 CPU with RDNA 2 graphics. This architecture allows the Steam Deck to handle modern games efficiently, providing a performance level comparable to gaming laptops."
+      },
+      {
+        "type": "p",
+        "text": "The device comes with three storage options: 64GB eMMC, 256GB NVMe SSD, and 512GB high-speed NVMe SSD. The higher storage options offer faster load times and the ability to install more games, although all variants allow for expandable storage via a microSD card slot."
+      },
+      {
+        "type": "p",
+        "text": "One of the standout features is its 7-inch touchscreen display, which supports a resolution of 1280x800 pixels. This display is capable of a 60Hz refresh rate, providing a smooth gaming experience."
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck runs a custom version of SteamOS, based on Arch Linux, but it also allows users to install other operating systems, making it versatile for various applications beyond gaming."
+      },
+      {
+        "type": "h2",
+        "text": "User Experience and Performance"
+      },
+      {
+        "type": "p",
+        "text": "Users have reported a generally positive experience with the Steam Deck, noting its comfortable design and responsive controls. The device features thumbsticks, trackpads, and a full set of buttons, providing multiple ways to interact with games."
+      },
+      {
+        "type": "p",
+        "text": "Battery life is a common concern with handheld devices, and the Steam Deck is no exception. Depending on the game being played and settings used, battery life can vary from 2 to 8 hours. This variability means that users may need to plan for charging during longer gaming sessions."
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck's performance is commendable, with many users able to play demanding titles at satisfactory settings. However, some users have experienced issues with compatibility and performance on specific games, which is an aspect that Valve continues to address with software updates."
+      },
+      {
+        "type": "p",
+        "text": "Overall, the Steam Deck represents a significant step forward in portable gaming, providing a bridge between traditional gaming consoles and the PC gaming experience."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Custom AMD APU for strong performance",
+          "Multiple storage options with expandable memory",
+          "Versatile controls including thumbsticks and trackpads",
+          "Custom SteamOS with the option to install other OS"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Practical Takeaway: The Steam Deck is an excellent option for gamers looking for a portable device that can handle a wide range of PC games. However, potential buyers should consider the battery life and compatibility with their favorite titles."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I play all Steam games on the Steam Deck?",
+        "a": "While the Steam Deck supports a large number of games, some titles may have compatibility issues. Check the Steam Deck compatibility list for specific games."
+      },
+      {
+        "q": "What is the battery life of the Steam Deck?",
+        "a": "Battery life varies based on usage, typically ranging from 2 to 8 hours depending on the game and settings."
+      },
+      {
+        "q": "Can I install other operating systems on the Steam Deck?",
+        "a": "Yes, the Steam Deck allows users to install other operating systems, expanding its functionality beyond gaming."
+      }
+    ],
+    "sources": []
   }
 ]
