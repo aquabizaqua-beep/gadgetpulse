@@ -2312,5 +2312,246 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "building-an-open-source-laptop-a-diy-journey",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-02",
+    "title": "Building an Open-Source Laptop: A DIY Journey",
+    "dek": "A developer shares their experience creating an open-source laptop from scratch.",
+    "image": "img/building-an-open-source-laptop-a-diy-journey.jpg",
+    "imageAlt": "Building an Open-Source Laptop: A DIY Journey",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "DIY",
+      "Laptops"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The world of open-source hardware has seen a resurgence in interest, particularly among tech enthusiasts and developers. Recently, a project showcased on Hacker News caught attention: an individual shared their journey of building an open-source laptop from scratch. This initiative not only emphasizes the potential of open-source principles but also highlights the challenges and rewards of such a complex project."
+      },
+      {
+        "type": "h2",
+        "text": "The Concept of Open-Source Hardware"
+      },
+      {
+        "type": "p",
+        "text": "Open-source hardware refers to physical objects whose design is made publicly available so that anyone can study, modify, distribute, or manufacture the product. This concept extends into the realm of laptops, where developers can share schematics, components, and assembly instructions. The idea is to foster innovation and collaboration within the tech community."
+      },
+      {
+        "type": "p",
+        "text": "The project in question aims to create a laptop that not only runs open-source software but is also entirely built from open-source components. This approach allows users to have complete control over their device, including the ability to replace parts and upgrade components as needed."
+      },
+      {
+        "type": "h2",
+        "text": "Challenges Faced in Building the Laptop"
+      },
+      {
+        "type": "p",
+        "text": "Creating a laptop from scratch is no small feat. The developer faced several challenges throughout the process, including sourcing components, ensuring compatibility, and designing a user-friendly interface. Some of the specific hurdles included:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Finding suitable open-source components that meet performance standards.",
+          "Designing a motherboard that can accommodate various hardware configurations.",
+          "Creating a chassis that is both functional and aesthetically pleasing."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Despite these challenges, the developer remained committed to the project, emphasizing the importance of community feedback and collaboration in overcoming obstacles."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those interested in exploring open-source hardware, this project serves as an excellent case study. It illustrates the importance of community involvement and the potential for innovation through collaboration. If you are considering embarking on a similar journey, start by researching available open-source components and engaging with online communities focused on hardware development."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an open-source laptop?",
+        "a": "An open-source laptop is a computer whose design is publicly available for anyone to study, modify, and build."
+      },
+      {
+        "q": "What are the benefits of building an open-source laptop?",
+        "a": "Benefits include customization, the ability to replace parts easily, and contributing to a community-driven project."
+      },
+      {
+        "q": "Is it practical to build your own laptop?",
+        "a": "While it can be challenging, building your own laptop can be a rewarding experience for those with the necessary skills and knowledge."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "valve-steam-deck-a-comprehensive-overview",
+    "cluster": "gaming",
+    "author": "alex-rivera",
+    "date": "2026-07-02",
+    "title": "Valve Steam Deck: A Comprehensive Overview",
+    "dek": "Exploring the features and performance of Valve's handheld gaming device.",
+    "image": "img/valve-steam-deck-a-comprehensive-overview.jpg",
+    "imageAlt": "Valve Steam Deck: A Comprehensive Overview",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Steam Deck",
+      "Valve",
+      "Handheld Gaming"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The Valve Steam Deck is a handheld gaming device that aims to bring PC gaming into a portable format. Launched in February 2022, it has garnered significant attention for its capabilities and versatility."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Specifications"
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck is powered by a custom AMD APU, which combines a quad-core Zen 2 CPU with RDNA 2 architecture for graphics. This allows it to run a wide array of PC games smoothly."
+      },
+      {
+        "type": "p",
+        "text": "The device comes in three storage options: 64GB eMMC, 256GB NVMe SSD, and 512GB NVMe SSD, with the latter two offering faster load times and performance. All models support microSD cards for additional storage."
+      },
+      {
+        "type": "p",
+        "text": "The screen is a 7-inch LCD with a resolution of 1280 x 800, providing a 16:10 aspect ratio. This resolution is well-suited for a handheld device, allowing for decent visuals without draining the battery excessively."
+      },
+      {
+        "type": "p",
+        "text": "One notable feature is its control layout, which includes thumbsticks, a D-pad, ABXY buttons, trackpads, and shoulder triggers. This variety allows users to play a wide range of game genres effectively."
+      },
+      {
+        "type": "h2",
+        "text": "Performance and Usability"
+      },
+      {
+        "type": "p",
+        "text": "In terms of performance, the Steam Deck can run many AAA titles at medium to high settings, depending on the game's optimization. Titles like \"Hades\" and \"Doom Eternal\" run smoothly, showcasing the device's capabilities."
+      },
+      {
+        "type": "p",
+        "text": "The Steam Deck operates on a modified version of SteamOS 3.0, allowing users to access their existing Steam library. Additionally, it supports the installation of other game stores and software, making it a versatile option for gamers."
+      },
+      {
+        "type": "p",
+        "text": "Battery life varies depending on usage; light gaming can yield around 4-5 hours, while more demanding titles may reduce this to 2 hours or less. Users should be mindful of battery management during extended gaming sessions."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Custom AMD APU for processing and graphics.",
+          "7-inch LCD display with 1280 x 800 resolution.",
+          "Multiple control options including thumbsticks and trackpads.",
+          "Runs SteamOS 3.0, compatible with multiple game stores."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For those looking to enhance their experience, the Steam Deck supports external peripherals, including keyboards and mice, allowing for a more traditional PC gaming setup when docked."
+      },
+      {
+        "type": "p",
+        "text": "Overall, the Steam Deck serves as a bridge for gamers who want the flexibility of PC gaming in a handheld format. Its performance, coupled with the Steam ecosystem, makes it a compelling choice."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can the Steam Deck play all PC games?",
+        "a": "While it can run many PC games, compatibility may vary, and some titles may require additional configuration."
+      },
+      {
+        "q": "What is the battery life of the Steam Deck?",
+        "a": "Battery life ranges from 2 to 5 hours depending on the game and usage intensity."
+      },
+      {
+        "q": "Is the Steam Deck upgradeable?",
+        "a": "The internal storage is upgradeable via microSD cards, but other hardware components are not designed to be user-replaceable."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Valve Steam Deck Official Site",
+        "url": "https://www.steamdeck.com"
+      },
+      {
+        "title": "PC Gamer Review of Steam Deck",
+        "url": "https://www.pcgamer.com/steam-deck-review/"
+      }
+    ]
+  },
+  {
+    "slug": "home-assistant-faces-api-integration-challenges-with-garage-door-opene",
+    "cluster": "smart-home",
+    "author": "maya-chen",
+    "date": "2026-07-02",
+    "title": "Home Assistant Faces API Integration Challenges with Garage Door Openers",
+    "dek": "Home Assistant's integration with garage door opener APIs has been blocked, raising concerns about smart home interoperability.",
+    "image": "img/home-assistant-faces-api-integration-challenges-with-garage-door-opene.jpg",
+    "imageAlt": "Home Assistant Faces API Integration Challenges with Garage Door Openers",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Smart Home",
+      "Home Assistant",
+      "Garage Door Openers"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Home Assistant, a popular open-source platform for smart home automation, has recently encountered significant challenges in integrating with certain garage door opener APIs. This development has implications for users seeking to create a seamless smart home experience."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the API Blockage"
+      },
+      {
+        "type": "p",
+        "text": "The integration issues stem from restrictions imposed by some manufacturers of garage door openers. These companies have opted to limit third-party access to their APIs, which are essential for enabling Home Assistant and similar platforms to interact with their devices."
+      },
+      {
+        "type": "p",
+        "text": "As a result, users who rely on Home Assistant to control their garage doors may find themselves unable to use certain features or even connect their devices altogether. This situation is particularly frustrating for those who have invested in a smart home ecosystem that includes multiple devices from different manufacturers."
+      },
+      {
+        "type": "h2",
+        "text": "Implications for Smart Home Users"
+      },
+      {
+        "type": "p",
+        "text": "The blockage of integration with garage door opener APIs highlights a broader issue within the smart home industry: interoperability. As various manufacturers create proprietary systems, the lack of standardization can lead to fragmentation, making it difficult for consumers to achieve a fully integrated smart home."
+      },
+      {
+        "type": "p",
+        "text": "For users, this means that even if they prefer Home Assistant for its flexibility and customization options, they may be forced to look for alternative solutions or devices that offer better compatibility. It also raises questions about the long-term viability of smart home ecosystems that rely heavily on third-party integrations."
+      },
+      {
+        "type": "p",
+        "text": "Practically, users should consider the following takeaway: before purchasing a garage door opener or any smart device, research its compatibility with your existing smart home platform. Look for products that explicitly state their support for Home Assistant or have a track record of successful integrations."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why are some garage door opener APIs blocked?",
+        "a": "Manufacturers may restrict API access to maintain control over their products and ensure user security, preventing potential vulnerabilities."
+      },
+      {
+        "q": "How can I check if my garage door opener is compatible with Home Assistant?",
+        "a": "Visit the Home Assistant documentation or community forums to find lists of compatible devices and user experiences."
+      },
+      {
+        "q": "What are the alternatives if my garage door opener is not compatible?",
+        "a": "Consider purchasing a different garage door opener known for its compatibility with Home Assistant or explore smart home hubs that offer broader device support."
+      }
+    ],
+    "sources": []
   }
 ]
