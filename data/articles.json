@@ -3022,5 +3022,242 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "building-an-open-source-laptop-a-community-project",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-03",
+    "title": "Building an Open-Source Laptop: A Community Project",
+    "dek": "An exploration of an open-source laptop project developed from scratch.",
+    "image": "img/building-an-open-source-laptop-a-community-project.jpg",
+    "imageAlt": "Building an Open-Source Laptop: A Community Project",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "Laptops",
+      "DIY"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In recent years, the open-source movement has made significant strides in various technology sectors, including software, hardware, and even electronics. One of the most intriguing developments in this space is the creation of open-source laptops. A recent project showcased on Hacker News highlights an individual's journey in building a laptop from scratch, emphasizing the potential of collaborative, community-driven innovation."
+      },
+      {
+        "type": "h2",
+        "text": "The Open-Source Laptop Project"
+      },
+      {
+        "type": "p",
+        "text": "The project, shared by a developer on the Hacker News platform, details the entire process of designing and assembling a laptop that can be fully customized and improved by anyone. The motivation behind this initiative stems from a desire to create a device that respects user privacy, allows for easy repairs, and is built with modular components."
+      },
+      {
+        "type": "p",
+        "text": "The creator utilized various open-source tools and resources, including CAD software for design and community forums for troubleshooting. The project also encourages contributions from other developers and makers, fostering an environment where users can share their modifications and improvements."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Benefits"
+      },
+      {
+        "type": "p",
+        "text": "The open-source laptop incorporates several key features that set it apart from traditional laptops:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Modular design for easy upgrades and repairs.",
+          "Compatibility with various open-source operating systems.",
+          "Focus on user privacy and data security.",
+          "Community-driven enhancements and support."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "By using modular components, users can replace or upgrade individual parts of the laptop, such as the battery, RAM, or storage, without needing to replace the entire device. This not only extends the lifespan of the laptop but also reduces electronic waste."
+      },
+      {
+        "type": "p",
+        "text": "Additionally, the project emphasizes compatibility with multiple operating systems, allowing users to choose software that best fits their needs. This flexibility is particularly beneficial for those who prefer open-source software solutions."
+      },
+      {
+        "type": "p",
+        "text": "The community aspect of this project is also noteworthy. By inviting contributions from other developers, users can benefit from shared knowledge and improvements, creating a sense of ownership and collaboration."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For tech enthusiasts and DIYers, this open-source laptop project presents an opportunity to engage in a hands-on learning experience. Whether you are interested in hardware design, software development, or simply want to explore the possibilities of open-source technology, participating in such projects can enhance your skills and understanding of modern computing."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an open-source laptop?",
+        "a": "An open-source laptop is a computer whose design and components are available for anyone to use, modify, and distribute, promoting transparency and user control."
+      },
+      {
+        "q": "How can I get involved in open-source laptop projects?",
+        "a": "You can start by joining online forums, contributing to existing projects, or even starting your own project using open-source designs and tools."
+      },
+      {
+        "q": "What are the benefits of building an open-source laptop?",
+        "a": "Benefits include customization, ease of repair, enhanced privacy, and the ability to collaborate with a community of makers and developers."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hacker News - Open Source Laptop Project",
+        "url": "https://news.ycombinator.com/"
+      }
+    ]
+  },
+  {
+    "slug": "home-assistant-faces-integration-block-with-garage-door-api",
+    "cluster": "smart-home",
+    "author": "alex-rivera",
+    "date": "2026-07-03",
+    "title": "Home Assistant Faces Integration Block with Garage Door API",
+    "dek": "Home Assistant's integration with garage door openers has hit a roadblock due to API restrictions.",
+    "image": "img/home-assistant-faces-integration-block-with-garage-door-api.jpg",
+    "imageAlt": "Home Assistant Faces Integration Block with Garage Door API",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Smart Home",
+      "Home Assistant",
+      "Garage Door Opener"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The open-source home automation platform Home Assistant has encountered a significant challenge in its efforts to integrate with various garage door opener APIs. This limitation affects users who wish to enhance their smart home experience by controlling garage doors through Home Assistant."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the Integration Block"
+      },
+      {
+        "type": "p",
+        "text": "API (Application Programming Interface) integrations are crucial for the functionality of smart home devices. They allow different systems to communicate effectively, enabling users to control their smart devices from a single interface. However, recent developments have revealed that certain garage door opener manufacturers have restricted access to their APIs."
+      },
+      {
+        "type": "p",
+        "text": "These restrictions may stem from concerns over security, data privacy, or the desire to maintain proprietary control over their products. As a result, Home Assistant users may find themselves unable to connect their garage door openers to the platform, limiting the automation possibilities that many have come to expect."
+      },
+      {
+        "type": "h2",
+        "text": "Implications for Users and Alternatives"
+      },
+      {
+        "type": "p",
+        "text": "For users of Home Assistant, this API block can be frustrating. Many homeowners rely on garage door openers as a critical component of their smart home systems, and the inability to integrate these devices can hinder the overall functionality and convenience of their setups."
+      },
+      {
+        "type": "p",
+        "text": "As a practical takeaway, users should consider the following steps:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Check compatibility: Always verify if your garage door opener is compatible with Home Assistant before purchase.",
+          "Explore alternative integrations: Look for other smart home platforms that may support your garage door opener.",
+          "Stay updated: Follow Home Assistant's official channels for any changes regarding API access or new integrations."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In the meantime, users may need to rely on the manufacturer’s proprietary apps or explore third-party solutions that can bridge the gap, albeit with potential limitations."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is Home Assistant?",
+        "a": "Home Assistant is an open-source home automation platform that allows users to control smart home devices from various manufacturers through a single interface."
+      },
+      {
+        "q": "Why are some garage door openers blocking API access?",
+        "a": "Manufacturers may restrict API access due to concerns about security, data privacy, or to maintain control over their proprietary technology."
+      },
+      {
+        "q": "What should I do if my garage door opener isn't compatible with Home Assistant?",
+        "a": "Consider checking for compatibility with other smart home platforms, or use the manufacturer's app until a solution is available."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ai-headphones-focus-on-one-voice-in-a-crowd",
+    "cluster": "audio",
+    "author": "maya-chen",
+    "date": "2026-07-03",
+    "title": "AI Headphones: Focus on One Voice in a Crowd",
+    "dek": "New AI headphones allow users to isolate a single speaker in noisy environments.",
+    "image": "img/ai-headphones-focus-on-one-voice-in-a-crowd.jpg",
+    "imageAlt": "AI Headphones: Focus on One Voice in a Crowd",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Audio",
+      "Technology",
+      "AI"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Advancements in audio technology are continuously reshaping how we experience sound. One of the latest innovations is AI-assisted headphones that allow users to focus on a single voice in a noisy environment. This feature is particularly beneficial in crowded places like cafes, conferences, or public transportation."
+      },
+      {
+        "type": "h2",
+        "text": "How AI Headphones Work"
+      },
+      {
+        "type": "p",
+        "text": "These headphones utilize a combination of advanced microphones and artificial intelligence algorithms to identify and isolate sound sources. The technology primarily relies on directional microphones that can pick up sound from specific angles, combined with AI that processes audio inputs in real-time."
+      },
+      {
+        "type": "p",
+        "text": "When a user wants to focus on a particular person speaking in a crowd, they simply look at that individual. The headphones then enhance the sound from that direction while reducing background noise. This is achieved through a process known as beamforming, which effectively directs the microphone's sensitivity toward the chosen sound source."
+      },
+      {
+        "type": "h2",
+        "text": "Potential Applications and Benefits"
+      },
+      {
+        "type": "p",
+        "text": "The practical applications of this technology are vast. For individuals with hearing impairments, these headphones provide a way to engage in conversations without the interference of surrounding noise. Additionally, professionals in fields such as journalism or event coverage can benefit from clearer audio capture in bustling environments."
+      },
+      {
+        "type": "p",
+        "text": "Moreover, this technology can enhance social interactions by allowing users to focus on conversations without straining to hear. It can also be useful in educational settings, where students can listen to a teacher or speaker without distractions."
+      },
+      {
+        "type": "p",
+        "text": "However, while the technology shows promise, it is still in its early stages. Users may experience varying levels of effectiveness based on the specific environment and the quality of the headphones."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those who often find themselves in noisy environments, AI headphones may offer a valuable solution for enhancing focus during conversations. While the technology is still developing, keeping an eye on future models could provide significant improvements in audio clarity."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can AI headphones work in all noisy environments?",
+        "a": "While AI headphones are designed to reduce background noise, their effectiveness can vary based on the specific environment and the quality of the technology."
+      },
+      {
+        "q": "Are AI headphones suitable for individuals with hearing impairments?",
+        "a": "Yes, these headphones can assist individuals with hearing impairments by allowing them to focus on specific sounds, making conversations clearer."
+      },
+      {
+        "q": "How do I select a person to focus on?",
+        "a": "The headphones use facial recognition or directional input from the user to isolate the voice of the person they are looking at."
+      }
+    ],
+    "sources": []
   }
 ]
