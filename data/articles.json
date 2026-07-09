@@ -5466,5 +5466,230 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "building-an-open-source-laptop-a-step-by-step-guide",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-09",
+    "title": "Building an Open-Source Laptop: A Step-by-Step Guide",
+    "dek": "An overview of a project to create an open-source laptop from scratch.",
+    "image": "img/building-an-open-source-laptop-a-step-by-step-guide.jpg",
+    "imageAlt": "Building an Open-Source Laptop: A Step-by-Step Guide",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "Laptops",
+      "DIY"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The concept of open-source hardware has gained traction in recent years, allowing enthusiasts and developers to create and modify physical devices. One notable project that has emerged from this movement is the development of an open-source laptop built entirely from scratch."
+      },
+      {
+        "type": "h2",
+        "text": "What is an Open-Source Laptop?"
+      },
+      {
+        "type": "p",
+        "text": "An open-source laptop is designed with transparency in mind. This means that the schematics, designs, and software are all freely available to the public. Users can examine, modify, and even build the laptop themselves, fostering a community of innovation and collaboration."
+      },
+      {
+        "type": "p",
+        "text": "The project typically involves sourcing components, designing the motherboard, and creating a custom case. These elements are often documented in detail, making it easier for others to replicate or improve upon the design."
+      },
+      {
+        "type": "h2",
+        "text": "Key Components and Considerations"
+      },
+      {
+        "type": "p",
+        "text": "Building an open-source laptop requires careful selection of components. Here are some key aspects to consider:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Processor: Choose a compatible CPU that supports open-source drivers.",
+          "Motherboard: Design a motherboard that can accommodate the selected components.",
+          "Display: Select a screen that fits the laptop's design and offers good resolution.",
+          "Battery: Ensure the battery is both efficient and safe for use.",
+          "Case: Design and fabricate a case that is durable and user-friendly."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It's essential to consider the compatibility of these components with open-source software. Many open-source laptops run Linux-based operating systems, which often provide better support for open hardware."
+      },
+      {
+        "type": "p",
+        "text": "Additionally, the community surrounding open-source hardware plays a significant role in the project’s success. Collaboration can lead to improvements in design and functionality."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those interested in pursuing a similar project, start by researching existing open-source laptop designs. Websites like GitHub often host repositories containing schematics and documentation that can provide valuable insights."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the benefits of an open-source laptop?",
+        "a": "Benefits include customization, transparency in design, and the ability to repair or upgrade components easily."
+      },
+      {
+        "q": "Do I need special skills to build an open-source laptop?",
+        "a": "Basic skills in electronics and programming can be helpful, but many projects are designed to be accessible to beginners."
+      },
+      {
+        "q": "Where can I find open-source laptop projects?",
+        "a": "Platforms like GitHub and dedicated open-source hardware forums are great places to start."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "home-assistant-faces-integration-barrier-with-garage-door-api",
+    "cluster": "smart-home",
+    "author": "alex-rivera",
+    "date": "2026-07-09",
+    "title": "Home Assistant Faces Integration Barrier with Garage Door API",
+    "dek": "A recent decision has prevented Home Assistant from accessing a popular garage door opener API.",
+    "image": "img/home-assistant-faces-integration-barrier-with-garage-door-api.jpg",
+    "imageAlt": "Home Assistant Faces Integration Barrier with Garage Door API",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Smart Home",
+      "Home Assistant",
+      "Garage Door Opener"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Home Assistant, a popular open-source platform for home automation, has encountered a significant roadblock in its efforts to integrate with a widely used garage door opener API. This development raises questions about the future of smart home interoperability and user control."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the Integration Block"
+      },
+      {
+        "type": "p",
+        "text": "The integration issue stems from the decision made by the company behind the garage door opener API. While specific reasons for the block have not been disclosed, it appears to be part of a broader strategy aimed at controlling how third-party applications access their technology."
+      },
+      {
+        "type": "p",
+        "text": "Home Assistant has built its reputation on allowing users to connect a wide variety of devices, regardless of the manufacturer. This philosophy promotes an open ecosystem, enabling users to customize their smart home experiences. However, the recent restriction poses a challenge to this model."
+      },
+      {
+        "type": "h2",
+        "text": "Implications for Smart Home Users"
+      },
+      {
+        "type": "p",
+        "text": "For consumers, this integration barrier means that those relying on Home Assistant for their garage door management may need to explore alternative solutions. Without access to the API, Home Assistant users might lose functionalities that streamline operations, such as remote access or automation features."
+      },
+      {
+        "type": "p",
+        "text": "Furthermore, this situation highlights a growing concern in the smart home industry regarding compatibility and user autonomy. As more companies seek to lock down their APIs, users may find themselves increasingly reliant on specific brands, which could lead to fragmentation in the smart home ecosystem."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Users may need to consider switching to compatible devices.",
+          "Alternative automation platforms may offer similar functionalities.",
+          "Monitoring updates from Home Assistant and the API provider is crucial."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In conclusion, the block of Home Assistant from integrating with the garage door opener API serves as a reminder of the ongoing challenges in the smart home landscape. Users should stay informed about these developments and consider their options for maintaining a seamless smart home experience."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is Home Assistant?",
+        "a": "Home Assistant is an open-source platform that allows users to control and automate smart home devices from various manufacturers."
+      },
+      {
+        "q": "Why was the integration with the garage door opener API blocked?",
+        "a": "The specific reasons for the block have not been disclosed, but it appears to be part of a strategy by the API provider to control access to their technology."
+      },
+      {
+        "q": "What should users do if their garage door opener is not compatible?",
+        "a": "Users may need to explore alternative garage door openers that support Home Assistant or consider switching to different automation platforms."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "apple-s-restrictions-impact-pebble-smartwatch-functionality",
+    "cluster": "phones",
+    "author": "maya-chen",
+    "date": "2026-07-09",
+    "title": "Apple's Restrictions Impact Pebble Smartwatch Functionality",
+    "dek": "Apple's policies limit Pebble's integration with iPhones.",
+    "image": "img/apple-s-restrictions-impact-pebble-smartwatch-functionality.jpg",
+    "imageAlt": "Apple's Restrictions Impact Pebble Smartwatch Functionality",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Apple",
+      "Pebble",
+      "Smartwatches"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The Pebble smartwatch, once a pioneer in the wearable tech market, has faced significant restrictions in its functionality when paired with iPhones. These limitations stem from Apple's stringent policies regarding third-party app integrations and Bluetooth functionalities."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the Restrictions"
+      },
+      {
+        "type": "p",
+        "text": "Apple's ecosystem is known for its closed nature, prioritizing seamless integration and user experience within its own products. This approach often leaves third-party devices, like Pebble, at a disadvantage. For instance, Pebble users have reported issues with notifications, app support, and syncing capabilities when using their watches with iPhones."
+      },
+      {
+        "type": "p",
+        "text": "The Pebble smartwatch relies on Bluetooth to connect with smartphones, but Apple's restrictions on Bluetooth profiles can limit the types of data that can be shared. Features such as music control and message notifications may not function as intended, leading to a frustrating experience for users."
+      },
+      {
+        "type": "h2",
+        "text": "Implications for Pebble Users"
+      },
+      {
+        "type": "p",
+        "text": "For current and potential Pebble users, these restrictions mean that while the hardware may be capable of many features, the software limitations imposed by Apple can hinder the overall experience. Users seeking full functionality may need to consider alternatives or adjust their expectations."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Limited notification support when paired with iPhones.",
+          "Inability to use certain apps that require deeper integration.",
+          "Potential issues with syncing health data."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Ultimately, while the Pebble smartwatch offers unique features and a dedicated user base, the limitations imposed by Apple's ecosystem are a significant hurdle. Users must weigh these factors when choosing their devices or consider the compatibility of their existing gadgets."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does Apple restrict third-party devices like Pebble?",
+        "a": "Apple prioritizes its ecosystem's security and user experience, which often results in limitations for third-party device compatibility."
+      },
+      {
+        "q": "What can Pebble users do to improve their experience with iPhones?",
+        "a": "Users can explore alternative smartwatches that offer better compatibility with iPhones or use the Pebble features that do work effectively."
+      },
+      {
+        "q": "Are there any workarounds for Pebble users on iPhones?",
+        "a": "Some users have found success by using specific apps or settings adjustments, but results may vary based on the iOS version and Pebble model."
+      }
+    ],
+    "sources": []
   }
 ]
