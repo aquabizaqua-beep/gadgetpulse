@@ -6630,5 +6630,242 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "building-an-open-source-laptop-from-scratch-a-case-study",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-11",
+    "title": "Building an Open-Source Laptop from Scratch: A Case Study",
+    "dek": "An overview of a project to create a fully open-source laptop.",
+    "image": "img/building-an-open-source-laptop-from-scratch-a-case-study.jpg",
+    "imageAlt": "Building an Open-Source Laptop from Scratch: A Case Study",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "Laptops",
+      "DIY Technology"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In recent years, the open-source movement has extended beyond software and into hardware, leading to innovative projects that promote transparency and user control. One such project is the development of an open-source laptop from scratch, a feat that not only showcases technical skill but also embodies the principles of accessibility and customization."
+      },
+      {
+        "type": "h2",
+        "text": "The Concept Behind the Open-Source Laptop"
+      },
+      {
+        "type": "p",
+        "text": "The idea of an open-source laptop revolves around creating a machine where every component is documented, and users can modify or replace parts as needed. This project aims to provide a platform for enthusiasts and developers who want more control over their devices."
+      },
+      {
+        "type": "p",
+        "text": "The creator of this laptop, who shared their journey on the Show HN forum, emphasized the need for a device that could run various operating systems, support different hardware configurations, and be easily repairable. This aligns with a growing demand for sustainability in technology, as users are increasingly looking for ways to extend the life of their devices."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Development Process"
+      },
+      {
+        "type": "p",
+        "text": "The open-source laptop project typically involves several key features, including:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Modular design for easy upgrades and repairs.",
+          "Compatibility with a range of open-source operating systems.",
+          "Documented schematics and assembly instructions.",
+          "Customizable hardware options to meet user needs."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The development process is often collaborative, with input from the community. This can include feedback on design, suggestions for components, and even contributions to the documentation. The use of open-source tools and platforms helps streamline communication and fosters a sense of community among developers."
+      },
+      {
+        "type": "p",
+        "text": "One practical takeaway from this project is the potential for individuals to learn about hardware assembly and software installation. By engaging in such a project, users can gain valuable skills that may be applicable in various tech-related fields."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the benefits of an open-source laptop?",
+        "a": "Open-source laptops allow for greater customization, repairability, and transparency compared to traditional laptops."
+      },
+      {
+        "q": "Is it difficult to build an open-source laptop?",
+        "a": "Building an open-source laptop can be challenging, especially for those without prior experience in hardware assembly, but many resources and communities are available to assist."
+      },
+      {
+        "q": "Can I use any operating system on an open-source laptop?",
+        "a": "Yes, open-source laptops are designed to be compatible with various open-source operating systems, giving users the flexibility to choose."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "u-s-lawsuit-accuses-apple-of-iphone-monopoly-practices",
+    "cluster": "phones",
+    "author": "alex-rivera",
+    "date": "2026-07-11",
+    "title": "U.S. Lawsuit Accuses Apple of iPhone Monopoly Practices",
+    "dek": "The U.S. government has filed a lawsuit against Apple, alleging anti-competitive behavior in the smartphone market.",
+    "image": "img/u-s-lawsuit-accuses-apple-of-iphone-monopoly-practices.jpg",
+    "imageAlt": "U.S. Lawsuit Accuses Apple of iPhone Monopoly Practices",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Apple",
+      "Lawsuit",
+      "Smartphone Market"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In a significant legal move, the U.S. government has filed a lawsuit against Apple Inc., accusing the tech giant of maintaining a monopoly in the iPhone market. This lawsuit is part of a broader scrutiny on big tech companies regarding their market practices and competition."
+      },
+      {
+        "type": "p",
+        "text": "The core of the lawsuit revolves around allegations that Apple restricts competition by controlling the iPhone ecosystem, particularly through the App Store. The government claims that these practices limit consumer choice and inflate prices."
+      },
+      {
+        "type": "h2",
+        "text": "Details of the Allegations"
+      },
+      {
+        "type": "p",
+        "text": "The lawsuit highlights several key areas where the government believes Apple has engaged in anti-competitive behavior:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Control over app distribution through the App Store, requiring developers to use Apple's payment system.",
+          "Restrictions on third-party app stores, limiting developers' ability to reach consumers through alternative channels.",
+          "High commissions charged on app sales and in-app purchases, which are seen as excessive."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These practices, according to the lawsuit, not only harm developers but also lead to higher costs for consumers. The government argues that by maintaining such a tight grip on the iPhone ecosystem, Apple effectively stifles competition."
+      },
+      {
+        "type": "h2",
+        "text": "Potential Implications of the Lawsuit"
+      },
+      {
+        "type": "p",
+        "text": "If the lawsuit succeeds, it could lead to significant changes in how Apple operates its App Store and manages its ecosystem. This might open the doors for more competition, potentially benefiting both developers and consumers."
+      },
+      {
+        "type": "p",
+        "text": "However, the outcome of the lawsuit is uncertain. Apple has consistently defended its practices, stating that they are necessary for maintaining user privacy and security. The company argues that its App Store policies promote innovation and provide a safe environment for users."
+      },
+      {
+        "type": "p",
+        "text": "In the past, Apple has faced similar scrutiny, but it has generally managed to uphold its business practices in court. Observers are keen to see how this case unfolds and what it could mean for the future of smartphone competition."
+      },
+      {
+        "type": "p",
+        "text": "For consumers, the practical takeaway is that this lawsuit could lead to more options and potentially lower prices in the app marketplace. If changes are implemented, it may alter how apps are sold and distributed on the iPhone."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the main accusation against Apple in the lawsuit?",
+        "a": "The U.S. government accuses Apple of maintaining a monopoly by restricting competition in the iPhone market, particularly through its App Store practices."
+      },
+      {
+        "q": "What could happen if the lawsuit is successful?",
+        "a": "If successful, the lawsuit could lead to changes in Apple's App Store policies, allowing for more competition and potentially lower prices for consumers."
+      },
+      {
+        "q": "How has Apple responded to the allegations?",
+        "a": "Apple has defended its practices, stating they are essential for user privacy and security, and that they promote innovation in the app marketplace."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "the-case-for-bringing-back-the-headphone-jack",
+    "cluster": "audio",
+    "author": "maya-chen",
+    "date": "2026-07-11",
+    "title": "The Case for Bringing Back the Headphone Jack",
+    "dek": "Exploring the ongoing nostalgia for the headphone jack in modern audio.",
+    "image": "img/the-case-for-bringing-back-the-headphone-jack.jpg",
+    "imageAlt": "The Case for Bringing Back the Headphone Jack",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Audio",
+      "Headphones",
+      "Technology"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The headphone jack has become a topic of nostalgia for many consumers since its decline in smartphones and other portable devices. As devices have evolved, the traditional 3.5mm headphone jack has been replaced by wireless audio solutions, such as Bluetooth headphones. While wireless technology offers convenience, the absence of the headphone jack has left some users longing for its simplicity and reliability."
+      },
+      {
+        "type": "h2",
+        "text": "Why People Miss the Headphone Jack"
+      },
+      {
+        "type": "p",
+        "text": "There are several reasons why many users still prefer the headphone jack over modern alternatives."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Reliability: Wired headphones do not require batteries or charging, making them consistently usable.",
+          "Audio Quality: Many audiophiles argue that wired connections provide better sound quality than Bluetooth, especially in high-resolution audio formats.",
+          "Cost: Wired headphones are often less expensive than their wireless counterparts, making them more accessible for a wider audience.",
+          "Universal Compatibility: The 3.5mm jack works with a vast array of devices, from smartphones to laptops, without the need for adapters."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These factors contribute to a lingering preference for wired headphones among certain demographics, particularly those who prioritize audio quality and reliability."
+      },
+      {
+        "type": "h2",
+        "text": "The Shift to Wireless Audio"
+      },
+      {
+        "type": "p",
+        "text": "Despite the strong feelings for the headphone jack, the trend toward wireless audio continues to dominate the market. Bluetooth technology has advanced significantly, with improvements in battery life and sound quality. Additionally, features like noise cancellation and built-in voice assistants have made wireless headphones increasingly appealing."
+      },
+      {
+        "type": "p",
+        "text": "However, users have raised concerns about the longevity of wireless headphones, as they rely on batteries that may degrade over time. Furthermore, some users experience audio latency, which can be problematic for gaming or watching videos."
+      },
+      {
+        "type": "p",
+        "text": "In response to consumer demand, some manufacturers have begun to reintroduce the headphone jack in select models, showcasing that there is still a market for wired audio solutions."
+      },
+      {
+        "type": "p",
+        "text": "Whether or not the headphone jack will make a full comeback remains uncertain. However, it is clear that many consumers still value the choice between wired and wireless options."
+      },
+      {
+        "type": "p",
+        "text": "For those who miss the headphone jack, a practical takeaway is to consider hybrid solutions, such as wired headphones that come with Bluetooth capabilities, allowing users to switch between wired and wireless modes as needed."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are there any smartphones with a headphone jack available?",
+        "a": "Yes, some smartphone manufacturers, such as Samsung and Motorola, still produce models that feature a headphone jack."
+      },
+      {
+        "q": "What are the benefits of using wired headphones?",
+        "a": "Wired headphones generally offer better sound quality, do not require charging, and are often more affordable than wireless options."
+      },
+      {
+        "q": "Will the headphone jack make a comeback?",
+        "a": "While some manufacturers are reintroducing the headphone jack, the overall trend in the industry is leaning towards wireless audio solutions."
+      }
+    ],
+    "sources": []
   }
 ]
