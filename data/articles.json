@@ -7105,5 +7105,255 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "creating-an-open-source-laptop-a-step-by-step-overview",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-12",
+    "title": "Creating an Open-Source Laptop: A Step-by-Step Overview",
+    "dek": "An exploration of a DIY open-source laptop project shared on HN.",
+    "image": "img/creating-an-open-source-laptop-a-step-by-step-overview.jpg",
+    "imageAlt": "Creating an Open-Source Laptop: A Step-by-Step Overview",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "DIY",
+      "Laptops"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In an age where consumer electronics are often proprietary and closed off, a recent project showcased on Hacker News (HN) has caught the attention of tech enthusiasts. A developer has created an open-source laptop from scratch, aiming to provide a customizable and transparent alternative to traditional laptops."
+      },
+      {
+        "type": "h2",
+        "text": "The Vision Behind the Project"
+      },
+      {
+        "type": "p",
+        "text": "The motivation behind building an open-source laptop stems from a desire for greater control over hardware and software. Many users are concerned about privacy, security, and the longevity of their devices. By creating an open-source laptop, the developer has made it possible for anyone to replicate, modify, or enhance the design."
+      },
+      {
+        "type": "p",
+        "text": "The project emphasizes community involvement, allowing users to share improvements and adaptations. This collaborative approach can lead to innovations that a single manufacturer might not consider."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Specifications"
+      },
+      {
+        "type": "p",
+        "text": "The open-source laptop includes several noteworthy features that appeal to tech-savvy users:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Modular design for easy upgrades and repairs.",
+          "Compatibility with various Linux distributions and open-source software.",
+          "Documentation available for all components, encouraging user modifications.",
+          "Customizable hardware options to suit different user needs."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These features not only promote sustainability by extending the life of the laptop but also foster a sense of community among users who can share their experiences and modifications."
+      },
+      {
+        "type": "h2",
+        "text": "Challenges Faced in Development"
+      },
+      {
+        "type": "p",
+        "text": "Creating an open-source laptop is not without its challenges. The developer faced hurdles such as sourcing components that are both high-quality and compatible with the open-source ethos. Additionally, ensuring that the laptop performs well with various operating systems required extensive testing and refinement."
+      },
+      {
+        "type": "p",
+        "text": "Another significant challenge was creating thorough documentation that would allow others to replicate the build process. Clear guidance is essential for encouraging participation and ensuring that users can successfully assemble and modify their laptops."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those interested in building their own open-source laptop or contributing to such projects, an essential first step is to familiarize yourself with available open-source hardware platforms and communities. Engaging with forums and documentation can provide valuable insights and support."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an open-source laptop?",
+        "a": "An open-source laptop is a computer designed with publicly available specifications, allowing users to modify and improve the hardware and software."
+      },
+      {
+        "q": "Can I build my own open-source laptop?",
+        "a": "Yes, with the right resources and documentation, you can build your own open-source laptop, and many communities offer support for DIY projects."
+      },
+      {
+        "q": "What are the benefits of using an open-source laptop?",
+        "a": "Benefits include increased control over hardware and software, enhanced privacy, and the ability to customize and repair the device easily."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "the-framework-laptop-a-modular-approach-to-computing",
+    "cluster": "laptops",
+    "author": "alex-rivera",
+    "date": "2026-07-12",
+    "title": "The Framework Laptop: A Modular Approach to Computing",
+    "dek": "Discover how the Framework Laptop promotes repairability and customization.",
+    "image": "img/the-framework-laptop-a-modular-approach-to-computing.jpg",
+    "imageAlt": "The Framework Laptop: A Modular Approach to Computing",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Framework Laptop",
+      "modular laptops",
+      "sustainable tech"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In an era where electronic waste is a growing concern, the Framework Laptop stands out for its commitment to sustainability and repairability. Founded in 2020, Framework aims to revolutionize the way we think about laptops by offering a product that is not only customizable but also designed for longevity."
+      },
+      {
+        "type": "h2",
+        "text": "Design and Features"
+      },
+      {
+        "type": "p",
+        "text": "The Framework Laptop features a minimalist design that prioritizes functionality. It comes with a 13.5-inch display and is powered by Intel's latest processors, ensuring capable performance for everyday tasks. One of its most distinctive attributes is its modular architecture, allowing users to easily swap out components such as RAM, storage, and even ports."
+      },
+      {
+        "type": "p",
+        "text": "The laptop is available in several configurations, giving users the flexibility to select the specifications that best meet their needs. This modularity is not just about performance; it also means that users can upgrade their devices over time, which can significantly extend the lifespan of the laptop."
+      },
+      {
+        "type": "h2",
+        "text": "Sustainability and Repairability"
+      },
+      {
+        "type": "p",
+        "text": "Framework’s commitment to sustainability is evident in its approach to design. Each laptop is built with replaceable and upgradeable parts, which not only reduces electronic waste but also empowers users to take control of their devices. The company provides detailed guides and tools to assist users in replacing components, making repairs accessible to a broader audience."
+      },
+      {
+        "type": "p",
+        "text": "In addition to its modular design, Framework also emphasizes the use of recycled materials in its laptop production. This holistic approach to manufacturing aligns with a growing consumer demand for sustainable technology solutions."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For consumers looking for a laptop that can adapt to their needs while minimizing environmental impact, the Framework Laptop presents a compelling option. Its modular design not only facilitates repair and upgrades but also promotes a more sustainable approach to personal computing."
+      },
+      {
+        "type": "h2",
+        "text": "Conclusion"
+      },
+      {
+        "type": "p",
+        "text": "The Framework Laptop is more than just a device; it’s part of a movement towards a more sustainable and user-friendly computing experience. As technology continues to evolve, products like the Framework Laptop may pave the way for a future where consumer electronics are built to last and easily maintainable."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What makes the Framework Laptop different from traditional laptops?",
+        "a": "The Framework Laptop is modular, allowing users to easily replace or upgrade components like RAM, storage, and ports, promoting longevity and sustainability."
+      },
+      {
+        "q": "Can I repair my Framework Laptop myself?",
+        "a": "Yes, Framework provides detailed guides and tools for users to perform repairs and upgrades on their laptops, making it accessible for non-experts."
+      },
+      {
+        "q": "Is the Framework Laptop suitable for gaming?",
+        "a": "While the Framework Laptop is designed primarily for productivity tasks, users can configure it with adequate specifications for light gaming, but it may not perform as well as dedicated gaming laptops."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "searching-for-mini-sized-android-phones",
+    "cluster": "phones",
+    "author": "maya-chen",
+    "date": "2026-07-12",
+    "title": "Searching for Mini-Sized Android Phones",
+    "dek": "Explore options for compact Android smartphones similar to the iPhone Mini.",
+    "image": "img/searching-for-mini-sized-android-phones.jpg",
+    "imageAlt": "Searching for Mini-Sized Android Phones",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Android",
+      "Smartphones",
+      "Compact Devices"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The iPhone Mini series has garnered a dedicated following due to its compact size, appealing to users who prefer smaller devices without sacrificing performance. However, for those looking for an Android alternative, the search can be more challenging."
+      },
+      {
+        "type": "h2",
+        "text": "Current Options for Compact Android Phones"
+      },
+      {
+        "type": "p",
+        "text": "While many Android manufacturers have gravitated towards larger screens, there are still a few models that cater to users seeking smaller form factors. Here are some noteworthy options:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Google Pixel 6a: With a 6.1-inch display, it's not the smallest option but is compact compared to many other smartphones on the market.",
+          "Samsung Galaxy S10e: This device features a 5.8-inch display and offers flagship performance in a smaller size.",
+          "Asus Zenfone 8: At 5.9 inches, it packs powerful specs in a compact design, making it a great choice for users wanting a small Android phone.",
+          "Sony Xperia 5 IV: This phone has a 6.1-inch display and is designed with a more compact and lightweight form factor."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These devices may not be as small as the iPhone Mini, which has a 5.4-inch screen, but they offer a more manageable size compared to the typical flagship Android phones that often feature displays over 6 inches."
+      },
+      {
+        "type": "h2",
+        "text": "What to Consider When Choosing a Compact Android Phone"
+      },
+      {
+        "type": "p",
+        "text": "When looking for a smaller Android phone, consider the following factors:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Screen Size: Aim for devices with a display under 6 inches for a truly compact experience.",
+          "Performance: Ensure that the phone has a capable processor and sufficient RAM to handle your everyday tasks.",
+          "Camera Quality: If photography is important to you, check the camera specifications and reviews.",
+          "Software Updates: Consider brands known for timely software updates to enhance longevity."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "As the demand for compact phones continues, it’s possible that more manufacturers will start offering smaller options in the future. Keeping an eye on upcoming releases can provide more choices."
+      },
+      {
+        "type": "p",
+        "text": "In conclusion, while the Android ecosystem may not currently have a direct equivalent to the iPhone Mini, there are still several compact options that provide good performance and usability."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are there any Android phones smaller than 5.5 inches?",
+        "a": "Currently, most Android phones are larger than 5.5 inches, but some models like the Sony Xperia 5 series come close."
+      },
+      {
+        "q": "Do compact Android phones have good camera quality?",
+        "a": "Yes, many compact Android phones come equipped with high-quality cameras, but it's essential to check reviews for specific models."
+      },
+      {
+        "q": "Will more small Android phones be released in the future?",
+        "a": "While trends indicate a preference for larger devices, consumer demand for compact smartphones may encourage manufacturers to produce more models."
+      }
+    ],
+    "sources": []
   }
 ]
