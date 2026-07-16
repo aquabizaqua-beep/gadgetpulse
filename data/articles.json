@@ -9030,5 +9030,247 @@
       }
     ],
     "sources": []
+  },
+  {
+    "slug": "exploring-the-innovative-design-of-the-framework-laptop",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-16",
+    "title": "Exploring the Innovative Design of the Framework Laptop",
+    "dek": "The Framework Laptop stands out with its modularity and sustainability.",
+    "image": "img/exploring-the-innovative-design-of-the-framework-laptop.jpg",
+    "imageAlt": "Exploring the Innovative Design of the Framework Laptop",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Framework Laptop",
+      "modular design",
+      "sustainability"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In a market saturated with sleek, thin laptops, the Framework Laptop emerges as a refreshing alternative. Its modular design not only allows users to customize their device but also promotes sustainability by enabling easy repairs and upgrades."
+      },
+      {
+        "type": "h2",
+        "text": "Modularity at Its Core"
+      },
+      {
+        "type": "p",
+        "text": "The key feature of the Framework Laptop is its modularity. Unlike traditional laptops, which often require specialized tools and skills for upgrades, the Framework is designed for easy disassembly. Users can replace components such as the battery, RAM, and even the motherboard without much hassle."
+      },
+      {
+        "type": "p",
+        "text": "This design philosophy not only extends the lifespan of the device but also reduces electronic waste. Framework has made it clear that they want users to take control of their hardware – a significant step towards sustainability in consumer electronics."
+      },
+      {
+        "type": "h2",
+        "text": "Performance and Usability"
+      },
+      {
+        "type": "p",
+        "text": "Beyond its innovative design, the Framework Laptop does not compromise on performance. It features the latest Intel processors, ensuring that it can handle a variety of tasks, from everyday productivity to more demanding applications."
+      },
+      {
+        "type": "p",
+        "text": "The keyboard is comfortable for extended typing sessions, and the display offers vibrant colors and sharp resolution. It's a well-rounded device that meets the needs of both casual users and professionals."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Customizable ports and components",
+          "Sustainable design with repairable parts",
+          "Good performance with modern Intel CPUs"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One practical takeaway is that consumers looking for a laptop that can grow with them should consider the Framework. Its modularity means that as technology evolves, users won't need to replace their entire laptop; they can simply upgrade specific components."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What makes the Framework Laptop unique?",
+        "a": "The Framework Laptop is unique due to its modular design, allowing users to easily upgrade and repair their devices, promoting sustainability."
+      },
+      {
+        "q": "Can I customize the ports on the Framework Laptop?",
+        "a": "Yes, the Framework Laptop allows users to customize the ports according to their needs, providing flexibility for different accessories."
+      },
+      {
+        "q": "Is the Framework Laptop suitable for gaming?",
+        "a": "While the Framework Laptop is designed for productivity and general use, its performance may not match that of dedicated gaming laptops, especially in high-end gaming scenarios."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "creating-a-local-llm-voice-assistant-for-smart-homes",
+    "cluster": "smart-home",
+    "author": "alex-rivera",
+    "date": "2026-07-16",
+    "title": "Creating a Local LLM Voice Assistant for Smart Homes",
+    "dek": "Learn how to build a local voice assistant to manage your smart home.",
+    "image": "img/creating-a-local-llm-voice-assistant-for-smart-homes.jpg",
+    "imageAlt": "Creating a Local LLM Voice Assistant for Smart Homes",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Smart Home",
+      "Voice Assistant",
+      "DIY Technology"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "Voice assistants have become integral to smart home setups, enabling users to control devices, manage tasks, and access information through natural language. While many popular voice assistants rely on cloud services, a growing interest exists in creating fully local solutions that prioritize privacy and responsiveness."
+      },
+      {
+        "type": "h2",
+        "text": "What is a Local LLM Voice Assistant?"
+      },
+      {
+        "type": "p",
+        "text": "A local LLM (Large Language Model) voice assistant is a system designed to process and respond to voice commands without needing an internet connection. This type of assistant runs entirely on local hardware, which can enhance privacy and reduce latency."
+      },
+      {
+        "type": "p",
+        "text": "Building a local LLM voice assistant involves several components, including hardware, software, and integration with various smart home devices."
+      },
+      {
+        "type": "h2",
+        "text": "Essential Components for Your Voice Assistant"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Hardware: A Raspberry Pi or similar microcomputer can serve as the core of your voice assistant. Ensure it has enough processing power and memory to run the LLM.",
+          "Software: Open-source LLMs like GPT-2 or smaller models like DistilGPT can be used. You'll also need software for speech recognition (like Vosk) and text-to-speech (like Mimic).",
+          "Smart Home Integration: Use protocols like MQTT or Home Assistant to link your assistant with smart home devices."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Once you've gathered the necessary components, you can begin the setup process."
+      },
+      {
+        "type": "h2",
+        "text": "Setting Up Your Local Voice Assistant"
+      },
+      {
+        "type": "p",
+        "text": "Here’s a simplified step-by-step guide to setting up your local voice assistant:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Install the chosen operating system on your Raspberry Pi, such as Raspberry Pi OS.",
+          "Set up the necessary dependencies for the LLM, speech recognition, and text-to-speech software.",
+          "Download and configure the LLM, ensuring it is optimized for local use.",
+          "Implement speech recognition to capture voice commands and process them with the LLM.",
+          "Integrate with smart home devices using APIs or protocols like MQTT.",
+          "Test the assistant with various commands to ensure functionality."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This setup allows you to customize your voice assistant's capabilities tailored to your preferences and smart home devices."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "Creating a fully local LLM voice assistant can enhance your smart home experience by providing a responsive and private solution. While the initial setup may require some technical knowledge, the benefits of having a personalized, offline assistant can be significant."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the advantages of a local voice assistant?",
+        "a": "Local voice assistants offer enhanced privacy, reduced latency, and greater control over functionality compared to cloud-based solutions."
+      },
+      {
+        "q": "Can I integrate existing smart home devices?",
+        "a": "Yes, many smart home devices support integration through protocols like MQTT or APIs, allowing your local assistant to control them."
+      },
+      {
+        "q": "Is technical knowledge required to build one?",
+        "a": "Some familiarity with programming and hardware setup is beneficial, but many online resources can assist beginners."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "exploring-compact-android-alternatives-to-the-iphone-mini",
+    "cluster": "phones",
+    "author": "maya-chen",
+    "date": "2026-07-16",
+    "title": "Exploring Compact Android Alternatives to the iPhone Mini",
+    "dek": "Find out which Android phones offer a compact design similar to the iPhone Mini.",
+    "image": "img/exploring-compact-android-alternatives-to-the-iphone-mini.jpg",
+    "imageAlt": "Exploring Compact Android Alternatives to the iPhone Mini",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Android",
+      "Smartphones",
+      "Compact Devices"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "The iPhone Mini has carved out a niche for itself, appealing to users who prefer smaller devices without compromising on performance. However, Android users seeking a similar compact experience face a limited selection. This article explores some of the best Android phones that match the iPhone Mini's size and usability."
+      },
+      {
+        "type": "h2",
+        "text": "Why Compact Phones Matter"
+      },
+      {
+        "type": "p",
+        "text": "In an era where smartphones are increasingly large and unwieldy, compact phones offer a refreshing alternative. These devices are easier to handle, fit comfortably in pockets, and often provide a more convenient one-handed experience. For many users, a smaller phone doesn't mean sacrificing functionality."
+      },
+      {
+        "type": "h2",
+        "text": "Compact Android Phones to Consider"
+      },
+      {
+        "type": "p",
+        "text": "Here are several Android phones that offer a compact size similar to the iPhone Mini:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Google Pixel 6a: With a 6.1-inch display, this phone is lightweight and easy to manage, delivering excellent camera performance and software updates.",
+          "Samsung Galaxy S23: This flagship model features a 6.1-inch screen and top-tier specifications, making it a powerful yet compact option for Android enthusiasts.",
+          "ASUS Zenfone 9: Known for its compact design, the Zenfone 9 boasts a 5.9-inch display and a powerful Snapdragon 8+ Gen 1 processor, making it a solid choice for those seeking performance in a smaller package."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "While these models may not be as small as the iPhone Mini, they are among the most compact options available in the Android market today. Each offers a balance of size, performance, and features."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "When searching for a compact Android phone, prioritize your needs—consider the importance of camera quality, battery life, and software experience. Visiting local stores to physically handle the devices can also help ensure you find the perfect fit for your hand and lifestyle."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are there any truly mini-sized Android phones?",
+        "a": "While options are limited, models like the ASUS Zenfone 9 are among the smallest available, though not as small as the iPhone Mini."
+      },
+      {
+        "q": "What should I consider when choosing a compact phone?",
+        "a": "Focus on specifications that matter to you, such as camera quality, battery life, and software preferences, alongside the physical size."
+      },
+      {
+        "q": "Will I miss out on features with a smaller phone?",
+        "a": "Compact phones often have similar capabilities to their larger counterparts, but check if specific features, like battery capacity or screen resolution, meet your needs."
+      }
+    ],
+    "sources": []
   }
 ]
