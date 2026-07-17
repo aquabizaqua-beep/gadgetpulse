@@ -9505,5 +9505,237 @@
         "url": "https://techcrunch.com/2021/07/14/framework-laptop-review/"
       }
     ]
+  },
+  {
+    "slug": "creating-an-open-source-laptop-from-scratch-a-new-venture",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-17",
+    "title": "Creating an Open-Source Laptop from Scratch: A New Venture",
+    "dek": "A developer shares their journey of building an open-source laptop.",
+    "image": "img/creating-an-open-source-laptop-from-scratch-a-new-venture.jpg",
+    "imageAlt": "Creating an Open-Source Laptop from Scratch: A New Venture",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Open Source",
+      "Laptops",
+      "DIY Technology"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In the world of personal computing, the concept of open-source hardware is gaining traction. Recently, a developer shared their journey on Hacker News (HN) about creating an open-source laptop from scratch. This initiative not only highlights the potential for customization but also emphasizes the importance of community-driven technology."
+      },
+      {
+        "type": "h2",
+        "text": "The Journey of Building an Open-Source Laptop"
+      },
+      {
+        "type": "p",
+        "text": "The developer's project began with a simple idea: to create a laptop that users could fully understand and modify. Unlike traditional laptops, which often come with proprietary components and software, this open-source laptop aims to provide transparency and freedom for users."
+      },
+      {
+        "type": "p",
+        "text": "The process involved several stages, including selecting the right components, designing the hardware, and ensuring compatibility with open-source software. The developer documented each step, making it easier for others to follow suit."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Choosing compatible components: The developer focused on widely available parts to ensure accessibility.",
+          "Designing the laptop: CAD software was used to create a blueprint that others could replicate.",
+          "Software integration: The laptop is designed to run various open-source operating systems, providing flexibility."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The open-source laptop also aims to foster a community around it. By sharing the design files and documentation, the developer encourages others to contribute improvements and share their own experiences. This collaborative approach aligns with the broader open-source philosophy."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those interested in exploring open-source technology, this project serves as a valuable reference. It illustrates how individuals can take initiative in the tech space, encouraging innovation and collaboration. Whether you're a developer, a tech enthusiast, or simply curious, consider diving into the open-source movement. You might find opportunities to contribute or even create your own projects."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is an open-source laptop?",
+        "a": "An open-source laptop is a computer whose design and components are made publicly available, allowing anyone to understand, modify, and improve it."
+      },
+      {
+        "q": "Why choose open-source hardware?",
+        "a": "Open-source hardware promotes transparency, customization, and community collaboration, enabling users to have more control over their devices."
+      },
+      {
+        "q": "Can I build my own laptop?",
+        "a": "Yes, with the right resources and components, you can build your own laptop. The open-source laptop project provides a framework for getting started."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "ai-headphones-focusing-on-one-voice-in-crowded-spaces",
+    "cluster": "audio",
+    "author": "alex-rivera",
+    "date": "2026-07-17",
+    "title": "AI Headphones: Focusing on One Voice in Crowded Spaces",
+    "dek": "New AI headphones allow users to isolate a single voice in a crowd.",
+    "image": "img/ai-headphones-focusing-on-one-voice-in-crowded-spaces.jpg",
+    "imageAlt": "AI Headphones: Focusing on One Voice in Crowded Spaces",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Audio",
+      "Technology",
+      "Headphones"
+    ],
+    "body": [
+      {
+        "type": "h2",
+        "text": "How AI Headphones Work"
+      },
+      {
+        "type": "p",
+        "text": "Recent advancements in audio technology have led to the development of AI headphones designed to enhance listening experiences in crowded environments. These headphones utilize sophisticated algorithms and directional microphones to focus on a single speaker, even amidst background noise."
+      },
+      {
+        "type": "p",
+        "text": "By leveraging machine learning, these headphones can recognize and isolate specific voices. When a user looks at a person speaking, the headphones adjust their audio processing to amplify that voice while suppressing surrounding sounds. This is particularly useful in social settings such as parties, conferences, or busy cafes."
+      },
+      {
+        "type": "h2",
+        "text": "Key Features and Benefits"
+      },
+      {
+        "type": "p",
+        "text": "The technology behind these headphones includes several notable features:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Voice Recognition: The headphones can identify and prioritize specific voices.",
+          "Directional Audio: Microphones focus on sound from the direction the user is looking.",
+          "Noise Cancellation: Background noise is minimized to enhance clarity.",
+          "Customizable Settings: Users can adjust the level of voice isolation and background noise suppression."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "These features make AI headphones particularly appealing for individuals who find it challenging to follow conversations in noisy environments. They can help reduce the strain of trying to hear someone speak over the din of a crowd."
+      },
+      {
+        "type": "p",
+        "text": "However, it is important to note that while the technology shows promise, it may not be perfect. Users may still experience some limitations based on the environment and the clarity of the targeted voice."
+      },
+      {
+        "type": "p",
+        "text": "As this technology continues to evolve, we may see improvements in accuracy and functionality, making these headphones an even more powerful tool for social interaction."
+      },
+      {
+        "type": "h2",
+        "text": "Practical Takeaway"
+      },
+      {
+        "type": "p",
+        "text": "For those who frequently find themselves in bustling environments, AI headphones could significantly improve the ability to engage in conversations without straining to hear. This technology aims to enhance social experiences and could be beneficial for individuals with hearing difficulties."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are AI headphones available for purchase?",
+        "a": "While some prototypes and models are being developed, commercial availability may vary. It's advisable to check with audio technology retailers for the latest offerings."
+      },
+      {
+        "q": "How do AI headphones differentiate between voices?",
+        "a": "AI headphones use machine learning algorithms and advanced audio processing to identify and focus on specific sound patterns associated with individual voices."
+      },
+      {
+        "q": "Can AI headphones be used for music as well?",
+        "a": "Yes, in addition to isolating voices, many AI headphones can also provide high-quality music playback, combining multiple audio functionalities."
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "exploring-the-framework-laptop-a-unique-take-on-portability",
+    "cluster": "laptops",
+    "author": "maya-chen",
+    "date": "2026-07-17",
+    "title": "Exploring the Framework Laptop: A Unique Take on Portability",
+    "dek": "The Framework Laptop stands out with its modular design and repairability.",
+    "image": "img/exploring-the-framework-laptop-a-unique-take-on-portability.jpg",
+    "imageAlt": "Exploring the Framework Laptop: A Unique Take on Portability",
+    "imageCredit": "Illustration: GadgetPulse",
+    "tags": [
+      "Framework Laptop",
+      "modular design",
+      "sustainability"
+    ],
+    "body": [
+      {
+        "type": "p",
+        "text": "In the world of laptops, innovation often focuses on performance and aesthetics. However, the Framework Laptop has emerged as a notable player, emphasizing modularity and sustainability. This laptop is designed for those who value repairability and customization, setting it apart from traditional models."
+      },
+      {
+        "type": "h2",
+        "text": "Modular Design and Customization"
+      },
+      {
+        "type": "p",
+        "text": "One of the most exciting features of the Framework Laptop is its modular design. Users can easily replace or upgrade components such as the RAM, storage, and ports. This approach not only extends the lifespan of the device but also allows users to tailor it to their specific needs."
+      },
+      {
+        "type": "p",
+        "text": "For instance, if you find that you frequently need more storage, you can swap in a larger SSD without the need for professional help. Similarly, if you require different connectivity options, you can choose from various expansion cards that fit into the laptop’s ports."
+      },
+      {
+        "type": "h2",
+        "text": "Sustainability and Repairability"
+      },
+      {
+        "type": "p",
+        "text": "The Framework Laptop is not just about customization; it also addresses the growing concern over e-waste. By allowing users to replace parts rather than discard the entire laptop, Framework promotes a more sustainable approach to technology. This is increasingly important in an era where electronic waste is a significant environmental issue."
+      },
+      {
+        "type": "p",
+        "text": "Framework also provides detailed guides and parts for users who wish to repair their devices. This transparency empowers users to take control of their technology, potentially saving money and reducing waste."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Modular components: RAM, SSD, ports can be replaced or upgraded.",
+          "User-friendly repair guides available online.",
+          "Sustainability focus helps reduce e-waste."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In addition to its modularity and sustainability, the Framework Laptop offers solid performance for everyday tasks. It comes with Intel processors, providing adequate power for browsing, document editing, and even light gaming."
+      },
+      {
+        "type": "p",
+        "text": "The laptop's build quality is commendable, featuring a sturdy chassis and a comfortable keyboard, making it suitable for both work and leisure."
+      },
+      {
+        "type": "p",
+        "text": "For consumers looking for a laptop that prioritizes longevity and adaptability, the Framework Laptop represents a compelling option. Its unique approach could influence the future direction of laptop design, encouraging other manufacturers to consider modularity and repairability."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What are the key features of the Framework Laptop?",
+        "a": "The Framework Laptop features a modular design allowing users to replace RAM, SSD, and ports, promoting customization and repairability."
+      },
+      {
+        "q": "How does the Framework Laptop contribute to sustainability?",
+        "a": "By enabling users to replace parts instead of discarding the entire device, the Framework Laptop helps reduce electronic waste and promotes a sustainable approach to technology."
+      },
+      {
+        "q": "Is the Framework Laptop suitable for gaming?",
+        "a": "While the Framework Laptop is primarily designed for everyday tasks, it can handle light gaming depending on the configuration."
+      }
+    ],
+    "sources": []
   }
 ]
